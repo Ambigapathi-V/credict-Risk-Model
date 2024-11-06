@@ -2,8 +2,13 @@ import os
 from pathlib import Path
 import logging
 
+# Initialize logging
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+
+# Project-specific variables
 project_name = "Credit_Risk_Model"
 
+# List of files and directories to create
 list_of_files = [
     ".github/workflows/.gitkeep",
     f"src/{project_name}/__init__.py",
@@ -24,27 +29,35 @@ list_of_files = [
     "main.py",
     "Dockerfile",
     "setup.py",
-    "research/research.ipynb",  # Comma added here
+    "research/research.ipynb",
     "template/index.html",
     "requirements.txt",
-    'app.py',
-    'api.py',
+    "app.py",
+    "api.py",
     "README.md",
-    '.gitignore'
-    
+    ".gitignore",
 ]
 
+# Create files and directories
 for filepath in list_of_files:
     filepath = Path(filepath)
     filedir, filename = os.path.split(filepath)
     
+    # Create directory if it doesn't exist
     if filedir != "":
-        os.makedirs(filedir, exist_ok=True)
-        logging.info(f"Creating directory {filedir} for the file {filename}")
-        
+        try:
+            os.makedirs(filedir, exist_ok=True)
+            logging.info(f"Created directory {filedir} for the file {filename}")
+        except Exception as e:
+            logging.error(f"Failed to create directory {filedir}: {e}")
+    
+    # Create empty file if it doesn't exist or is empty
     if (not os.path.exists(filepath)) or (os.path.getsize(filepath) == 0):
-        with open(filepath, "w") as f:
-            pass
-        logging.info(f"Creating empty file {filepath}")
+        try:
+            with open(filepath, "w") as f:
+                pass
+            logging.info(f"Created empty file {filepath}")
+        except Exception as e:
+            logging.error(f"Failed to create file {filepath}: {e}")
     else:
         logging.info(f"File {filepath} already exists")
