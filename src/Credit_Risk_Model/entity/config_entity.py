@@ -8,3 +8,9 @@ class DataIngestionConfig:
     loans_data : Path
     bureau_data : Path
     output_path : Path    
+    
+@dataclass
+class DataPreprocessingConfig:
+    root_dir : Path
+    input_data : Path
+    output_data : Path

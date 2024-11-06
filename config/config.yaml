@@ -5,4 +5,11 @@ data_ingestion:
   customers_data: data/customers.csv
   loans_data: data/loans.csv
   bureau_data: data/bureau_data.csv
-  output_path: artifacts/data.csv
+  output_path: artifacts/data_ingestion/data.csv
+
+data_preprocessing:
+  root_dir: artifacts/data_preprocessing
+  input_data: artifacts/data_ingestion/data.csv
+  output_data: artifacts/data_preprocessing/preprocessed_data.csv
+
+feature_engineering:
