@@ -2,3 +2,9 @@ pandas
 scikit-learn
 seaborn
 matplotlib
+ipykernel
+joblib
+Flask
+python-box
+mlflow
+ensure

@@ -1,0 +1,8 @@
+artifacts_root: artifacts  
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  customers_data: data/customers.csv
+  loans_data: data/loans.csv
+  bureau_data: data/bureau_data.csv
+  output_path: artifacts/data.csv
