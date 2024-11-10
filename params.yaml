@@ -1,1 +1,14 @@
-data : hi
+data_cleaning:
+  columns_to_have:
+  - age
+  - residence_type
+  - loan_purpose
+  - loan_type
+  - loan_tenure_months
+  - number_of_open_accounts
+  - credit_utilization_ratio
+  - loan_to_income
+  - delinquency_ratio
+  - avg_dpd_per_delinquency
+
+ 

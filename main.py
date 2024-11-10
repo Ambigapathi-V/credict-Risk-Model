@@ -2,6 +2,7 @@ from src.Credit_Risk_Model.logger import logger
 from src.Credit_Risk_Model.exception import CustomException
 from src.Credit_Risk_Model.pipeline.data_ingestion_pipeline import DataIngestionTrainingPipeline
 from src.Credit_Risk_Model.pipeline.data_preprocessing_pipeline import DataPreProcessingTrainingPipeline
+from src.Credit_Risk_Model.pipeline.data_cleaning_pipeline import DataCleaningTrainingPipeline
 import sys
 
 STAGE_NAME = "Data Ingestion Stage"
@@ -27,3 +28,17 @@ try:
 except Exception as e:
         logger.error(f"An unexpected error occurred: {e}")
         raise CustomException(e, sys)
+
+STAGE_NAME = "Data Cleaning Stage"
+
+try: 
+        pipeline = DataCleaningTrainingPipeline()
+        logger.info(f">>>>>>>>>>>Starting {STAGE_NAME}<<<<<<<<<<<<<")
+        pipeline.initiate_data_cleaning()
+        logger.info(f">>>>>>>>>>>Completed {STAGE_NAME}<<<<<<<<<<<<<")
+        
+except Exception as e:
+        logger.error(f"An unexpected error occurred: {e}")
+        raise CustomException(e, sys)
+
+

@@ -12,4 +12,8 @@ data_preprocessing:
   input_data: artifacts/data_ingestion/data.csv
   output_data: artifacts/data_preprocessing/preprocessed_data.csv
 
-feature_engineering:
+data_cleaning:
+  root_dir: artifacts/data_cleaning
+  input_filepath: artifacts/data_preprocessing/preprocessed_data.csv
+  test_path: artifacts/data_cleaning/test_data.csv
+  train_path: artifacts/data_cleaning/train_data.csv

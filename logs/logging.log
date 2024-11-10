@@ -422,3 +422,1920 @@ Name: count, dtype: int64
 [2024-11-06 11:57:59,754] INFO: common : 97] Successfully saved DataFrame to: artifacts\data_preprocessing\preprocessed_data.csv
 [2024-11-06 11:57:59,755] INFO: data_preprocessing : 57] Processed data saved to artifacts\data_preprocessing\preprocessed_data.csv
 [2024-11-06 11:57:59,759] INFO: main : 25] >>>>>>>>>>>Completed Data Pre-Processing Stage<<<<<<<<<<<<<
+[2024-11-07 07:31:46,697] INFO: __init__ : 26] Credit Risk Model Building Started
+[2024-11-07 07:32:52,345] INFO: __init__ : 26] Credit Risk Model Building Started
+[2024-11-07 08:49:12,136] INFO: __init__ : 26] Credit Risk Model Building Started
+[2024-11-07 09:04:45,801] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 09:04:45,815] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 09:04:45,819] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 09:04:45,825] INFO: common : 55] Created directory: artifacts
+[2024-11-07 09:05:04,029] INFO: __init__ : 26] Credit Risk Model Building Started
+[2024-11-07 09:05:15,171] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 09:05:15,179] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 09:05:15,184] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 09:05:15,184] INFO: common : 55] Created directory: artifacts
+[2024-11-07 09:06:54,872] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 09:06:54,877] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 09:06:54,878] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 09:06:54,880] INFO: common : 55] Created directory: artifacts
+[2024-11-07 09:08:56,895] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 09:08:56,899] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 09:08:56,902] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 09:08:56,904] INFO: common : 55] Created directory: artifacts
+[2024-11-07 09:09:53,759] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 09:09:53,764] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 09:09:53,767] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 09:09:53,768] INFO: common : 55] Created directory: artifacts
+[2024-11-07 09:11:54,203] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 09:11:54,207] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 09:11:54,209] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 09:11:54,212] INFO: common : 55] Created directory: artifacts
+[2024-11-07 09:11:54,214] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 09:12:22,095] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 09:12:22,100] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 09:12:22,103] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 09:12:22,105] INFO: common : 55] Created directory: artifacts
+[2024-11-07 09:12:22,108] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 09:13:40,837] INFO: __init__ : 26] Credit Risk Model Building Started
+[2024-11-07 09:13:43,245] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 09:13:43,246] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 09:13:43,246] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 09:13:43,246] INFO: common : 55] Created directory: artifacts
+[2024-11-07 09:13:43,246] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 09:13:57,258] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 09:13:57,262] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 09:13:57,265] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 09:13:57,267] INFO: common : 55] Created directory: artifacts
+[2024-11-07 09:13:57,269] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 09:15:22,152] INFO: __init__ : 26] Credit Risk Model Building Started
+[2024-11-07 09:15:24,811] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 09:15:24,832] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 09:15:24,837] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 09:15:24,838] INFO: common : 55] Created directory: artifacts
+[2024-11-07 09:15:24,838] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 09:17:29,441] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 09:17:29,446] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 09:17:29,446] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 09:17:29,451] INFO: common : 55] Created directory: artifacts
+[2024-11-07 09:17:29,453] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 09:17:51,471] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 09:17:51,475] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 09:17:51,477] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 09:17:51,479] INFO: common : 55] Created directory: artifacts
+[2024-11-07 09:17:51,481] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 09:18:34,702] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 09:18:34,707] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 09:18:34,709] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 09:18:34,712] INFO: common : 55] Created directory: artifacts
+[2024-11-07 09:18:34,713] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 09:20:06,004] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 09:20:06,008] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 09:20:06,010] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 09:20:06,013] INFO: common : 55] Created directory: artifacts
+[2024-11-07 09:20:06,014] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 09:20:06,396] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-07 09:20:06,399] INFO: 426614983 : 24] Initiating train test split...
+[2024-11-07 09:20:06,434] INFO: 426614983 : 26] Train test split completed successfully.
+[2024-11-07 09:22:28,944] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 09:22:28,949] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 09:22:28,951] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 09:22:28,954] INFO: common : 55] Created directory: artifacts
+[2024-11-07 09:22:28,955] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 09:22:29,246] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-07 09:22:29,252] INFO: 4258291051 : 24] Initiating train test split...
+[2024-11-07 09:22:29,278] INFO: 4258291051 : 26] Train test split completed successfully.
+[2024-11-07 09:44:59,952] INFO: __init__ : 26] Credit Risk Model Building Started
+[2024-11-07 09:45:05,777] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 09:45:05,784] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 09:45:05,794] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 09:45:05,799] INFO: common : 55] Created directory: artifacts
+[2024-11-07 09:45:05,804] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 09:45:06,316] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-07 09:45:06,321] INFO: 2664310108 : 24] Initiating train test split...
+[2024-11-07 09:45:06,394] INFO: 2664310108 : 26] Train test split completed successfully.
+[2024-11-07 09:46:20,042] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 09:46:20,044] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 09:46:20,050] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 09:46:20,050] INFO: common : 55] Created directory: artifacts
+[2024-11-07 09:46:20,050] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 09:46:20,291] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-07 09:46:20,292] INFO: 1881029250 : 24] Initiating train test split...
+[2024-11-07 09:46:20,315] INFO: 1881029250 : 26] Train test split completed successfully.
+[2024-11-07 09:46:20,317] INFO: 1881029250 : 89] Train_df :Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-07 09:47:30,065] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 09:47:30,068] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 09:47:30,072] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 09:47:30,073] INFO: common : 55] Created directory: artifacts
+[2024-11-07 09:47:30,076] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 09:47:30,300] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-07 09:47:30,300] INFO: 1881029250 : 24] Initiating train test split...
+[2024-11-07 09:47:30,329] INFO: 1881029250 : 26] Train test split completed successfully.
+[2024-11-07 09:47:30,329] INFO: 1881029250 : 89] Train_df :Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-07 09:48:16,663] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 09:48:16,664] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 09:48:16,664] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 09:48:16,664] INFO: common : 55] Created directory: artifacts
+[2024-11-07 09:48:16,664] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 09:48:16,821] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-07 09:48:16,821] INFO: 2246951225 : 24] Initiating train test split...
+[2024-11-07 09:48:16,843] INFO: 2246951225 : 26] Train test split completed successfully.
+[2024-11-07 09:48:16,843] INFO: 2246951225 : 89] Train_df :Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-07 09:48:35,027] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 09:48:35,031] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 09:48:35,035] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 09:48:35,035] INFO: common : 55] Created directory: artifacts
+[2024-11-07 09:48:35,035] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 09:48:35,260] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-07 09:48:35,260] INFO: 3804610989 : 24] Initiating train test split...
+[2024-11-07 09:48:35,282] INFO: 3804610989 : 26] Train test split completed successfully.
+[2024-11-07 09:48:35,282] INFO: 3804610989 : 89] Train_df :Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-07 09:50:19,390] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 09:50:19,396] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 09:50:19,397] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 09:50:19,401] INFO: common : 55] Created directory: artifacts
+[2024-11-07 09:50:19,403] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 09:50:19,626] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-07 09:50:19,631] INFO: 1409294132 : 24] Initiating train test split...
+[2024-11-07 09:50:19,652] INFO: 1409294132 : 26] Train test split completed successfully.
+[2024-11-07 09:50:19,652] INFO: 1409294132 : 89] Train_df :Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-07 09:50:19,676] INFO: 1409294132 : 94]  After outlier removal train_df :(40000, 33)
+[2024-11-07 09:50:19,678] INFO: 1409294132 : 95]  After outlier removal test_df :(10000, 33)
+[2024-11-07 09:50:19,695] INFO: 1409294132 : 100] Rule 1: GST should not be more than 20% :(0, 33)
+[2024-11-07 09:50:19,695] INFO: 1409294132 : 104] Rule 2: Net disbursement should not be higher than loan_amount :(0, 33)
+[2024-11-07 09:50:19,710] INFO: 1409294132 : 109] Fixed loan_purpose column :loan_purpose
+Personal     14037
+Home         12006
+Auto          7950
+Education     6007
+Name: count, dtype: int64
+[2024-11-07 09:50:19,728] INFO: 1409294132 : 114] Generated delinquency_ratio column :count    40000.000000
+mean        10.424123
+std         17.283345
+min          0.000000
+25%          0.000000
+50%          3.800000
+75%         13.200000
+max        100.000000
+Name: delinquency_ratio, dtype: float64
+[2024-11-07 09:50:19,745] INFO: 1409294132 : 34] Removing columns...
+[2024-11-07 09:52:02,048] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 09:52:02,052] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 09:52:02,054] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 09:52:02,054] INFO: common : 55] Created directory: artifacts
+[2024-11-07 09:52:02,061] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 09:55:26,828] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 09:55:26,832] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 09:55:26,835] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 09:55:26,836] INFO: common : 55] Created directory: artifacts
+[2024-11-07 09:55:26,836] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 09:55:27,050] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-07 09:55:27,050] INFO: 3407410845 : 25] Initiating train test split...
+[2024-11-07 09:55:27,061] INFO: 3407410845 : 27] Train test split completed successfully.
+[2024-11-07 09:55:27,061] INFO: 3407410845 : 90] Train_df :Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-07 09:55:27,080] INFO: 3407410845 : 95]  After outlier removal train_df :(40000, 33)
+[2024-11-07 09:55:27,080] INFO: 3407410845 : 96]  After outlier removal test_df :(10000, 33)
+[2024-11-07 09:55:27,091] INFO: 3407410845 : 101] Rule 1: GST should not be more than 20% :(0, 33)
+[2024-11-07 09:55:27,094] INFO: 3407410845 : 105] Rule 2: Net disbursement should not be higher than loan_amount :(0, 33)
+[2024-11-07 09:55:27,096] INFO: 3407410845 : 110] Fixed loan_purpose column :loan_purpose
+Personal     14037
+Home         12006
+Auto          7950
+Education     6007
+Name: count, dtype: int64
+[2024-11-07 09:55:27,110] INFO: 3407410845 : 115] Generated delinquency_ratio column :count    40000.000000
+mean        10.424123
+std         17.283345
+min          0.000000
+25%          0.000000
+50%          3.800000
+75%         13.200000
+max        100.000000
+Name: delinquency_ratio, dtype: float64
+[2024-11-07 09:55:27,132] INFO: 3407410845 : 35] Removing columns...
+[2024-11-07 09:55:27,135] INFO: 3407410845 : 38] Columns removed successfully.
+[2024-11-07 09:55:27,140] INFO: 3407410845 : 35] Removing columns...
+[2024-11-07 09:55:27,144] INFO: 3407410845 : 38] Columns removed successfully.
+[2024-11-07 09:55:59,380] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 09:55:59,385] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 09:55:59,387] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 09:55:59,389] INFO: common : 55] Created directory: artifacts
+[2024-11-07 09:55:59,391] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 09:55:59,627] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-07 09:55:59,635] INFO: 665069509 : 25] Initiating train test split...
+[2024-11-07 09:55:59,660] INFO: 665069509 : 27] Train test split completed successfully.
+[2024-11-07 09:55:59,661] INFO: 665069509 : 90] Train_df :Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-07 09:55:59,681] INFO: 665069509 : 95]  After outlier removal train_df :(40000, 33)
+[2024-11-07 09:55:59,681] INFO: 665069509 : 96]  After outlier removal test_df :(10000, 33)
+[2024-11-07 09:55:59,681] INFO: 665069509 : 101] Rule 1: GST should not be more than 20% :(0, 33)
+[2024-11-07 09:55:59,681] INFO: 665069509 : 105] Rule 2: Net disbursement should not be higher than loan_amount :(0, 33)
+[2024-11-07 09:55:59,696] INFO: 665069509 : 110] Fixed loan_purpose column :loan_purpose
+Personal     14037
+Home         12006
+Auto          7950
+Education     6007
+Name: count, dtype: int64
+[2024-11-07 09:55:59,696] INFO: 665069509 : 115] Generated delinquency_ratio column :count    40000.000000
+mean        10.424123
+std         17.283345
+min          0.000000
+25%          0.000000
+50%          3.800000
+75%         13.200000
+max        100.000000
+Name: delinquency_ratio, dtype: float64
+[2024-11-07 09:55:59,719] INFO: 665069509 : 35] Removing columns...
+[2024-11-07 09:55:59,726] INFO: 665069509 : 38] Columns removed successfully.
+[2024-11-07 09:55:59,729] INFO: 665069509 : 35] Removing columns...
+[2024-11-07 09:55:59,733] INFO: 665069509 : 38] Columns removed successfully.
+[2024-11-07 09:55:59,735] INFO: 665069509 : 46] Calculating VIF...
+[2024-11-07 09:58:51,767] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 09:58:51,771] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 09:58:51,773] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 09:58:51,776] INFO: common : 55] Created directory: artifacts
+[2024-11-07 09:58:51,778] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 09:58:52,012] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-07 09:58:52,012] INFO: 2472660040 : 25] Initiating train test split...
+[2024-11-07 09:58:52,034] INFO: 2472660040 : 27] Train test split completed successfully.
+[2024-11-07 09:58:52,043] INFO: 2472660040 : 93] Train_df :Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-07 09:58:52,063] INFO: 2472660040 : 98]  After outlier removal train_df :(40000, 33)
+[2024-11-07 09:58:52,064] INFO: 2472660040 : 99]  After outlier removal test_df :(10000, 33)
+[2024-11-07 09:58:52,064] INFO: 2472660040 : 104] Rule 1: GST should not be more than 20% :(0, 33)
+[2024-11-07 09:58:52,064] INFO: 2472660040 : 108] Rule 2: Net disbursement should not be higher than loan_amount :(0, 33)
+[2024-11-07 09:58:52,080] INFO: 2472660040 : 113] Fixed loan_purpose column :loan_purpose
+Personal     14037
+Home         12006
+Auto          7950
+Education     6007
+Name: count, dtype: int64
+[2024-11-07 09:58:52,091] INFO: 2472660040 : 118] Generated delinquency_ratio column :count    40000.000000
+mean        10.424123
+std         17.283345
+min          0.000000
+25%          0.000000
+50%          3.800000
+75%         13.200000
+max        100.000000
+Name: delinquency_ratio, dtype: float64
+[2024-11-07 09:58:52,100] INFO: 2472660040 : 35] Removing columns...
+[2024-11-07 09:58:52,113] INFO: 2472660040 : 38] Columns removed successfully.
+[2024-11-07 09:58:52,113] INFO: 2472660040 : 35] Removing columns...
+[2024-11-07 09:58:52,113] INFO: 2472660040 : 38] Columns removed successfully.
+[2024-11-07 09:58:52,113] INFO: 2472660040 : 46] Calculating VIF...
+[2024-11-07 09:59:31,639] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 09:59:31,643] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 09:59:31,646] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 09:59:31,647] INFO: common : 55] Created directory: artifacts
+[2024-11-07 09:59:31,650] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 09:59:31,863] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-07 09:59:31,864] INFO: 247319317 : 25] Initiating train test split...
+[2024-11-07 09:59:31,886] INFO: 247319317 : 27] Train test split completed successfully.
+[2024-11-07 09:59:31,888] INFO: 247319317 : 91] Train_df :Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-07 09:59:31,911] INFO: 247319317 : 96]  After outlier removal train_df :(40000, 33)
+[2024-11-07 09:59:31,914] INFO: 247319317 : 97]  After outlier removal test_df :(10000, 33)
+[2024-11-07 09:59:31,914] INFO: 247319317 : 102] Rule 1: GST should not be more than 20% :(0, 33)
+[2024-11-07 09:59:31,914] INFO: 247319317 : 106] Rule 2: Net disbursement should not be higher than loan_amount :(0, 33)
+[2024-11-07 09:59:31,930] INFO: 247319317 : 111] Fixed loan_purpose column :loan_purpose
+Personal     14037
+Home         12006
+Auto          7950
+Education     6007
+Name: count, dtype: int64
+[2024-11-07 09:59:31,935] INFO: 247319317 : 116] Generated delinquency_ratio column :count    40000.000000
+mean        10.424123
+std         17.283345
+min          0.000000
+25%          0.000000
+50%          3.800000
+75%         13.200000
+max        100.000000
+Name: delinquency_ratio, dtype: float64
+[2024-11-07 09:59:31,947] INFO: 247319317 : 35] Removing columns...
+[2024-11-07 09:59:31,960] INFO: 247319317 : 38] Columns removed successfully.
+[2024-11-07 09:59:31,961] INFO: 247319317 : 35] Removing columns...
+[2024-11-07 09:59:31,968] INFO: 247319317 : 38] Columns removed successfully.
+[2024-11-07 09:59:31,968] INFO: 247319317 : 46] Calculating VIF...
+[2024-11-07 10:01:04,000] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 10:01:04,004] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 10:01:04,009] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 10:01:04,012] INFO: common : 55] Created directory: artifacts
+[2024-11-07 10:01:04,015] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 10:01:04,305] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-07 10:01:04,305] INFO: 3057852108 : 25] Initiating train test split...
+[2024-11-07 10:01:04,326] INFO: 3057852108 : 27] Train test split completed successfully.
+[2024-11-07 10:01:04,337] INFO: 3057852108 : 92] Train_df :Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-07 10:01:04,359] INFO: 3057852108 : 97]  After outlier removal train_df :(40000, 33)
+[2024-11-07 10:01:04,359] INFO: 3057852108 : 98]  After outlier removal test_df :(10000, 33)
+[2024-11-07 10:01:04,359] INFO: 3057852108 : 103] Rule 1: GST should not be more than 20% :(0, 33)
+[2024-11-07 10:01:04,368] INFO: 3057852108 : 107] Rule 2: Net disbursement should not be higher than loan_amount :(0, 33)
+[2024-11-07 10:01:04,386] INFO: 3057852108 : 112] Fixed loan_purpose column :loan_purpose
+Personal     14037
+Home         12006
+Auto          7950
+Education     6007
+Name: count, dtype: int64
+[2024-11-07 10:01:04,387] INFO: 3057852108 : 117] Generated delinquency_ratio column :count    40000.000000
+mean        10.424123
+std         17.283345
+min          0.000000
+25%          0.000000
+50%          3.800000
+75%         13.200000
+max        100.000000
+Name: delinquency_ratio, dtype: float64
+[2024-11-07 10:01:04,400] INFO: 3057852108 : 35] Removing columns...
+[2024-11-07 10:01:04,416] INFO: 3057852108 : 38] Columns removed successfully.
+[2024-11-07 10:01:04,416] INFO: 3057852108 : 35] Removing columns...
+[2024-11-07 10:01:04,416] INFO: 3057852108 : 38] Columns removed successfully.
+[2024-11-07 10:01:04,416] INFO: 3057852108 : 46] Calculating VIF...
+[2024-11-07 10:04:02,612] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 10:04:02,616] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 10:04:02,619] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 10:04:02,620] INFO: common : 55] Created directory: artifacts
+[2024-11-07 10:04:02,622] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 10:04:02,796] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-07 10:04:02,796] INFO: 368484327 : 25] Initiating train test split...
+[2024-11-07 10:04:02,816] INFO: 368484327 : 27] Train test split completed successfully.
+[2024-11-07 10:04:02,816] INFO: 368484327 : 90] Train_df :Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-07 10:04:02,835] INFO: 368484327 : 95]  After outlier removal train_df :(40000, 33)
+[2024-11-07 10:04:02,835] INFO: 368484327 : 96]  After outlier removal test_df :(10000, 33)
+[2024-11-07 10:04:02,835] INFO: 368484327 : 101] Rule 1: GST should not be more than 20% :(0, 33)
+[2024-11-07 10:04:02,835] INFO: 368484327 : 105] Rule 2: Net disbursement should not be higher than loan_amount :(0, 33)
+[2024-11-07 10:04:02,848] INFO: 368484327 : 110] Fixed loan_purpose column :loan_purpose
+Personal     14037
+Home         12006
+Auto          7950
+Education     6007
+Name: count, dtype: int64
+[2024-11-07 10:04:02,848] INFO: 368484327 : 115] Generated delinquency_ratio column :count    40000.000000
+mean        10.424123
+std         17.283345
+min          0.000000
+25%          0.000000
+50%          3.800000
+75%         13.200000
+max        100.000000
+Name: delinquency_ratio, dtype: float64
+[2024-11-07 10:04:02,864] INFO: 368484327 : 35] Removing columns...
+[2024-11-07 10:04:02,877] INFO: 368484327 : 38] Columns removed successfully.
+[2024-11-07 10:04:02,879] INFO: 368484327 : 35] Removing columns...
+[2024-11-07 10:04:02,881] INFO: 368484327 : 38] Columns removed successfully.
+[2024-11-07 10:04:02,881] INFO: 368484327 : 46] Calculating VIF...
+[2024-11-07 10:05:25,026] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 10:05:25,031] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 10:05:25,033] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 10:05:25,035] INFO: common : 55] Created directory: artifacts
+[2024-11-07 10:05:25,037] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 10:05:25,242] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-07 10:05:25,242] INFO: 368484327 : 25] Initiating train test split...
+[2024-11-07 10:05:25,262] INFO: 368484327 : 27] Train test split completed successfully.
+[2024-11-07 10:05:25,262] INFO: 368484327 : 90] Train_df :Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-07 10:05:25,282] INFO: 368484327 : 95]  After outlier removal train_df :(40000, 33)
+[2024-11-07 10:05:25,282] INFO: 368484327 : 96]  After outlier removal test_df :(10000, 33)
+[2024-11-07 10:05:25,282] INFO: 368484327 : 101] Rule 1: GST should not be more than 20% :(0, 33)
+[2024-11-07 10:05:25,282] INFO: 368484327 : 105] Rule 2: Net disbursement should not be higher than loan_amount :(0, 33)
+[2024-11-07 10:05:25,297] INFO: 368484327 : 110] Fixed loan_purpose column :loan_purpose
+Personal     14037
+Home         12006
+Auto          7950
+Education     6007
+Name: count, dtype: int64
+[2024-11-07 10:05:25,300] INFO: 368484327 : 115] Generated delinquency_ratio column :count    40000.000000
+mean        10.424123
+std         17.283345
+min          0.000000
+25%          0.000000
+50%          3.800000
+75%         13.200000
+max        100.000000
+Name: delinquency_ratio, dtype: float64
+[2024-11-07 10:05:25,318] INFO: 368484327 : 35] Removing columns...
+[2024-11-07 10:05:25,318] INFO: 368484327 : 38] Columns removed successfully.
+[2024-11-07 10:05:25,318] INFO: 368484327 : 35] Removing columns...
+[2024-11-07 10:05:25,329] INFO: 368484327 : 38] Columns removed successfully.
+[2024-11-07 10:05:25,332] INFO: 368484327 : 46] Calculating VIF...
+[2024-11-07 10:06:26,196] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 10:06:26,199] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 10:06:26,202] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 10:06:26,203] INFO: common : 55] Created directory: artifacts
+[2024-11-07 10:06:26,206] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 10:06:26,419] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-07 10:06:26,421] INFO: 743778718 : 25] Initiating train test split...
+[2024-11-07 10:06:26,444] INFO: 743778718 : 27] Train test split completed successfully.
+[2024-11-07 10:06:26,446] INFO: 743778718 : 112] Train_df :Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-07 10:06:26,466] INFO: 743778718 : 117]  After outlier removal train_df :(40000, 33)
+[2024-11-07 10:06:26,466] INFO: 743778718 : 118]  After outlier removal test_df :(10000, 33)
+[2024-11-07 10:06:26,466] INFO: 743778718 : 123] Rule 1: GST should not be more than 20% :(0, 33)
+[2024-11-07 10:06:26,476] INFO: 743778718 : 127] Rule 2: Net disbursement should not be higher than loan_amount :(0, 33)
+[2024-11-07 10:06:26,481] INFO: 743778718 : 132] Fixed loan_purpose column :loan_purpose
+Personal     14037
+Home         12006
+Auto          7950
+Education     6007
+Name: count, dtype: int64
+[2024-11-07 10:06:26,500] INFO: 743778718 : 137] Generated delinquency_ratio column :count    40000.000000
+mean        10.424123
+std         17.283345
+min          0.000000
+25%          0.000000
+50%          3.800000
+75%         13.200000
+max        100.000000
+Name: delinquency_ratio, dtype: float64
+[2024-11-07 10:06:26,518] INFO: 743778718 : 35] Removing columns...
+[2024-11-07 10:06:26,521] INFO: 743778718 : 38] Columns removed successfully.
+[2024-11-07 10:06:26,529] INFO: 743778718 : 35] Removing columns...
+[2024-11-07 10:06:26,534] INFO: 743778718 : 38] Columns removed successfully.
+[2024-11-07 10:06:26,534] INFO: 743778718 : 48] Calculating VIF...
+[2024-11-07 10:07:41,118] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 10:07:41,123] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 10:07:41,126] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 10:07:41,128] INFO: common : 55] Created directory: artifacts
+[2024-11-07 10:07:41,131] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 10:07:41,371] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-07 10:07:41,377] INFO: 1092156782 : 25] Initiating train test split...
+[2024-11-07 10:07:41,400] INFO: 1092156782 : 27] Train test split completed successfully.
+[2024-11-07 10:07:41,400] INFO: 1092156782 : 98] Train_df :Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-07 10:07:41,429] INFO: 1092156782 : 103]  After outlier removal train_df :(40000, 33)
+[2024-11-07 10:07:41,433] INFO: 1092156782 : 104]  After outlier removal test_df :(10000, 33)
+[2024-11-07 10:07:41,435] INFO: 1092156782 : 109] Rule 1: GST should not be more than 20% :(0, 33)
+[2024-11-07 10:07:41,435] INFO: 1092156782 : 113] Rule 2: Net disbursement should not be higher than loan_amount :(0, 33)
+[2024-11-07 10:07:41,454] INFO: 1092156782 : 118] Fixed loan_purpose column :loan_purpose
+Personal     14037
+Home         12006
+Auto          7950
+Education     6007
+Name: count, dtype: int64
+[2024-11-07 10:07:41,467] INFO: 1092156782 : 123] Generated delinquency_ratio column :count    40000.000000
+mean        10.424123
+std         17.283345
+min          0.000000
+25%          0.000000
+50%          3.800000
+75%         13.200000
+max        100.000000
+Name: delinquency_ratio, dtype: float64
+[2024-11-07 10:07:41,481] INFO: 1092156782 : 35] Removing columns...
+[2024-11-07 10:07:41,490] INFO: 1092156782 : 38] Columns removed successfully.
+[2024-11-07 10:07:41,496] INFO: 1092156782 : 35] Removing columns...
+[2024-11-07 10:07:41,503] INFO: 1092156782 : 38] Columns removed successfully.
+[2024-11-07 10:07:41,505] INFO: 1092156782 : 46] Calculating VIF...
+[2024-11-07 10:14:42,500] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 10:14:42,504] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 10:14:42,506] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 10:14:42,507] INFO: common : 55] Created directory: artifacts
+[2024-11-07 10:14:42,508] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 10:14:42,733] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-07 10:14:42,740] INFO: 450895178 : 25] Initiating train test split...
+[2024-11-07 10:14:42,758] INFO: 450895178 : 27] Train test split completed successfully.
+[2024-11-07 10:14:42,767] INFO: 450895178 : 99] Train_df :Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-07 10:14:42,787] INFO: 450895178 : 104]  After outlier removal train_df :(40000, 33)
+[2024-11-07 10:14:42,787] INFO: 450895178 : 105]  After outlier removal test_df :(10000, 33)
+[2024-11-07 10:14:42,787] INFO: 450895178 : 110] Rule 1: GST should not be more than 20% :(0, 33)
+[2024-11-07 10:14:42,797] INFO: 450895178 : 114] Rule 2: Net disbursement should not be higher than loan_amount :(0, 33)
+[2024-11-07 10:14:42,801] INFO: 450895178 : 119] Fixed loan_purpose column :loan_purpose
+Personal     14037
+Home         12006
+Auto          7950
+Education     6007
+Name: count, dtype: int64
+[2024-11-07 10:14:42,816] INFO: 450895178 : 124] Generated delinquency_ratio column :count    40000.000000
+mean        10.424123
+std         17.283345
+min          0.000000
+25%          0.000000
+50%          3.800000
+75%         13.200000
+max        100.000000
+Name: delinquency_ratio, dtype: float64
+[2024-11-07 10:14:42,832] INFO: 450895178 : 35] Removing columns...
+[2024-11-07 10:14:42,839] INFO: 450895178 : 38] Columns removed successfully.
+[2024-11-07 10:14:42,839] INFO: 450895178 : 35] Removing columns...
+[2024-11-07 10:14:42,845] INFO: 450895178 : 38] Columns removed successfully.
+[2024-11-07 10:14:42,845] INFO: 450895178 : 46] Calculating VIF...
+[2024-11-07 10:17:29,952] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 10:17:29,957] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 10:17:29,960] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 10:17:29,960] INFO: common : 55] Created directory: artifacts
+[2024-11-07 10:17:29,967] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 10:17:30,190] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-07 10:17:30,195] INFO: 938390452 : 25] Initiating train test split...
+[2024-11-07 10:17:30,216] INFO: 938390452 : 27] Train test split completed successfully.
+[2024-11-07 10:17:30,216] INFO: 938390452 : 96] Train_df :Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-07 10:17:30,235] INFO: 938390452 : 101]  After outlier removal train_df :(40000, 33)
+[2024-11-07 10:17:30,238] INFO: 938390452 : 102]  After outlier removal test_df :(10000, 33)
+[2024-11-07 10:17:30,238] INFO: 938390452 : 107] Rule 1: GST should not be more than 20% :(0, 33)
+[2024-11-07 10:17:30,238] INFO: 938390452 : 111] Rule 2: Net disbursement should not be higher than loan_amount :(0, 33)
+[2024-11-07 10:17:30,252] INFO: 938390452 : 116] Fixed loan_purpose column :loan_purpose
+Personal     14037
+Home         12006
+Auto          7950
+Education     6007
+Name: count, dtype: int64
+[2024-11-07 10:17:30,252] INFO: 938390452 : 121] Generated delinquency_ratio column :count    40000.000000
+mean        10.424123
+std         17.283345
+min          0.000000
+25%          0.000000
+50%          3.800000
+75%         13.200000
+max        100.000000
+Name: delinquency_ratio, dtype: float64
+[2024-11-07 10:17:30,273] INFO: 938390452 : 35] Removing columns...
+[2024-11-07 10:17:30,283] INFO: 938390452 : 38] Columns removed successfully.
+[2024-11-07 10:17:30,289] INFO: 938390452 : 35] Removing columns...
+[2024-11-07 10:17:30,289] INFO: 938390452 : 38] Columns removed successfully.
+[2024-11-07 10:17:30,289] INFO: 938390452 : 46] Calculating VIF...
+[2024-11-07 10:17:30,600] INFO: 938390452 : 54] Index(['age', 'gender', 'marital_status', 'employment_status',
+       'number_of_dependants', 'residence_type', 'years_at_current_address',
+       'city', 'state', 'zipcode', 'loan_purpose', 'loan_type',
+       'sanction_amount', 'processing_fee', 'gst', 'net_disbursement',
+       'loan_tenure_months', 'principal_outstanding',
+       'bank_balance_at_application', 'number_of_open_accounts',
+       'number_of_closed_accounts', 'enquiry_count',
+       'credit_utilization_ratio', 'delinquency_ratio',
+       'avg_dpd_per_delinquency'],
+      dtype='object')
+[2024-11-07 10:17:57,310] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 10:17:57,315] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 10:17:57,318] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 10:17:57,321] INFO: common : 55] Created directory: artifacts
+[2024-11-07 10:17:57,323] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 10:17:57,552] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-07 10:17:57,557] INFO: 419623487 : 25] Initiating train test split...
+[2024-11-07 10:17:57,573] INFO: 419623487 : 27] Train test split completed successfully.
+[2024-11-07 10:17:57,583] INFO: 419623487 : 96] Train_df :Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-07 10:17:57,600] INFO: 419623487 : 101]  After outlier removal train_df :(40000, 33)
+[2024-11-07 10:17:57,604] INFO: 419623487 : 102]  After outlier removal test_df :(10000, 33)
+[2024-11-07 10:17:57,604] INFO: 419623487 : 107] Rule 1: GST should not be more than 20% :(0, 33)
+[2024-11-07 10:17:57,604] INFO: 419623487 : 111] Rule 2: Net disbursement should not be higher than loan_amount :(0, 33)
+[2024-11-07 10:17:57,618] INFO: 419623487 : 116] Fixed loan_purpose column :loan_purpose
+Personal     14037
+Home         12006
+Auto          7950
+Education     6007
+Name: count, dtype: int64
+[2024-11-07 10:17:57,630] INFO: 419623487 : 121] Generated delinquency_ratio column :count    40000.000000
+mean        10.424123
+std         17.283345
+min          0.000000
+25%          0.000000
+50%          3.800000
+75%         13.200000
+max        100.000000
+Name: delinquency_ratio, dtype: float64
+[2024-11-07 10:17:57,647] INFO: 419623487 : 35] Removing columns...
+[2024-11-07 10:17:57,656] INFO: 419623487 : 38] Columns removed successfully.
+[2024-11-07 10:17:57,656] INFO: 419623487 : 35] Removing columns...
+[2024-11-07 10:17:57,656] INFO: 419623487 : 38] Columns removed successfully.
+[2024-11-07 10:17:57,656] INFO: 419623487 : 46] Calculating VIF...
+[2024-11-07 10:17:57,987] INFO: 419623487 : 54] 25
+[2024-11-07 10:21:30,666] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 10:21:30,670] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 10:21:30,673] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 10:21:30,674] INFO: common : 55] Created directory: artifacts
+[2024-11-07 10:21:30,677] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 10:21:30,913] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-07 10:21:30,913] INFO: 2550793116 : 25] Initiating train test split...
+[2024-11-07 10:21:30,937] INFO: 2550793116 : 27] Train test split completed successfully.
+[2024-11-07 10:21:30,938] INFO: 2550793116 : 91] Train_df :Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-07 10:21:30,957] INFO: 2550793116 : 96]  After outlier removal train_df :(40000, 33)
+[2024-11-07 10:21:30,957] INFO: 2550793116 : 97]  After outlier removal test_df :(10000, 33)
+[2024-11-07 10:21:30,967] INFO: 2550793116 : 102] Rule 1: GST should not be more than 20% :(0, 33)
+[2024-11-07 10:21:30,969] INFO: 2550793116 : 106] Rule 2: Net disbursement should not be higher than loan_amount :(0, 33)
+[2024-11-07 10:21:30,986] INFO: 2550793116 : 111] Fixed loan_purpose column :loan_purpose
+Personal     14037
+Home         12006
+Auto          7950
+Education     6007
+Name: count, dtype: int64
+[2024-11-07 10:21:30,998] INFO: 2550793116 : 116] Generated delinquency_ratio column :count    40000.000000
+mean        10.424123
+std         17.283345
+min          0.000000
+25%          0.000000
+50%          3.800000
+75%         13.200000
+max        100.000000
+Name: delinquency_ratio, dtype: float64
+[2024-11-07 10:21:31,017] INFO: 2550793116 : 35] Removing columns...
+[2024-11-07 10:21:31,019] INFO: 2550793116 : 38] Columns removed successfully.
+[2024-11-07 10:21:31,019] INFO: 2550793116 : 35] Removing columns...
+[2024-11-07 10:21:31,019] INFO: 2550793116 : 38] Columns removed successfully.
+[2024-11-07 10:21:31,032] INFO: 2550793116 : 46] Calculating VIF...
+[2024-11-07 10:21:31,038] INFO: 2550793116 : 49] 17
+[2024-11-07 10:21:31,138] INFO: 2550793116 : 52]                 age  number_of_dependants  years_at_current_address  \
+count  40000.000000          40000.000000              40000.000000   
+mean       0.414478              0.387955                  0.499664   
+std        0.189544              0.307149                  0.297851   
+min        0.000000              0.000000                  0.000000   
+25%        0.288462              0.000000                  0.233333   
+50%        0.423077              0.400000                  0.500000   
+75%        0.538462              0.600000                  0.766667   
+max        1.000000              1.000000                  1.000000   
+
+            zipcode  sanction_amount  processing_fee           gst  \
+count  40000.000000     40000.000000    40000.000000  40000.000000   
+mean       0.523515         0.090387        0.014184      0.083854   
+std        0.286220         0.120864        0.021113      0.113215   
+min        0.000000         0.000000        0.000000      0.000000   
+25%        0.325424         0.021850        0.003373      0.020097   
+50%        0.491525         0.050791        0.007848      0.046749   
+75%        0.762712         0.098936        0.016157      0.096238   
+max        1.000000         1.000000        1.000000      1.000000   
+
+       net_disbursement  loan_tenure_months  principal_outstanding  \
+count      40000.000000        40000.000000           40000.000000   
+mean           0.083854            0.375252               0.267442   
+std            0.113215            0.234355               0.242807   
+min            0.000000            0.000000               0.000000   
+25%            0.020097            0.188679               0.084994   
+50%            0.046749            0.339623               0.200196   
+75%            0.096238            0.547170               0.358155   
+max            1.000000            1.000000               1.000000   
+
+       bank_balance_at_application  number_of_open_accounts  \
+count                 40000.000000             40000.000000   
+mean                      0.125956                 0.498425   
+std                       0.133176                 0.372441   
+min                       0.000000                 0.000000   
+25%                       0.036573                 0.000000   
+50%                       0.085208                 0.333333   
+75%                       0.157776                 0.666667   
+max                       1.000000                 1.000000   
+
+       number_of_closed_accounts  enquiry_count  credit_utilization_ratio  \
+count               40000.000000   40000.000000              40000.000000   
+mean                    0.499525       0.500247                  0.437639   
+std                     0.407221       0.253373                  0.296586   
+min                     0.000000       0.000000                  0.000000   
+25%                     0.000000       0.375000                  0.181818   
+50%                     0.500000       0.500000                  0.393939   
+75%                     1.000000       0.625000                  0.676768   
+max                     1.000000       1.000000                  1.000000   
+
+       delinquency_ratio  avg_dpd_per_delinquency  
+count       40000.000000             40000.000000  
+mean            0.104241                 0.330385  
+std             0.172833                 0.290294  
+min             0.000000                 0.000000  
+25%             0.000000                 0.000000  
+50%             0.038000                 0.430000  
+75%             0.132000                 0.580000  
+max             1.000000                 1.000000  
+[2024-11-07 10:22:10,508] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 10:22:10,517] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 10:22:10,517] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 10:22:10,525] INFO: common : 55] Created directory: artifacts
+[2024-11-07 10:22:10,525] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 10:22:10,932] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-07 10:22:10,932] INFO: 1889459179 : 25] Initiating train test split...
+[2024-11-07 10:22:10,975] INFO: 1889459179 : 27] Train test split completed successfully.
+[2024-11-07 10:22:10,975] INFO: 1889459179 : 91] Train_df :Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-07 10:22:11,008] INFO: 1889459179 : 96]  After outlier removal train_df :(40000, 33)
+[2024-11-07 10:22:11,013] INFO: 1889459179 : 97]  After outlier removal test_df :(10000, 33)
+[2024-11-07 10:22:11,017] INFO: 1889459179 : 102] Rule 1: GST should not be more than 20% :(0, 33)
+[2024-11-07 10:22:11,025] INFO: 1889459179 : 106] Rule 2: Net disbursement should not be higher than loan_amount :(0, 33)
+[2024-11-07 10:22:11,041] INFO: 1889459179 : 111] Fixed loan_purpose column :loan_purpose
+Personal     14037
+Home         12006
+Auto          7950
+Education     6007
+Name: count, dtype: int64
+[2024-11-07 10:22:11,058] INFO: 1889459179 : 116] Generated delinquency_ratio column :count    40000.000000
+mean        10.424123
+std         17.283345
+min          0.000000
+25%          0.000000
+50%          3.800000
+75%         13.200000
+max        100.000000
+Name: delinquency_ratio, dtype: float64
+[2024-11-07 10:22:11,084] INFO: 1889459179 : 35] Removing columns...
+[2024-11-07 10:22:11,100] INFO: 1889459179 : 38] Columns removed successfully.
+[2024-11-07 10:22:11,100] INFO: 1889459179 : 35] Removing columns...
+[2024-11-07 10:22:11,113] INFO: 1889459179 : 38] Columns removed successfully.
+[2024-11-07 10:22:11,117] INFO: 1889459179 : 46] Calculating VIF...
+[2024-11-07 10:22:11,137] INFO: 1889459179 : 49] 17
+[2024-11-07 10:22:11,263] INFO: 1889459179 : 52]                 age  number_of_dependants  years_at_current_address  \
+count  40000.000000          40000.000000              40000.000000   
+mean       0.414478              0.387955                  0.499664   
+std        0.189544              0.307149                  0.297851   
+min        0.000000              0.000000                  0.000000   
+25%        0.288462              0.000000                  0.233333   
+50%        0.423077              0.400000                  0.500000   
+75%        0.538462              0.600000                  0.766667   
+max        1.000000              1.000000                  1.000000   
+
+            zipcode  sanction_amount  processing_fee           gst  \
+count  40000.000000     40000.000000    40000.000000  40000.000000   
+mean       0.523515         0.090387        0.014184      0.083854   
+std        0.286220         0.120864        0.021113      0.113215   
+min        0.000000         0.000000        0.000000      0.000000   
+25%        0.325424         0.021850        0.003373      0.020097   
+50%        0.491525         0.050791        0.007848      0.046749   
+75%        0.762712         0.098936        0.016157      0.096238   
+max        1.000000         1.000000        1.000000      1.000000   
+
+       net_disbursement  loan_tenure_months  principal_outstanding  \
+count      40000.000000        40000.000000           40000.000000   
+mean           0.083854            0.375252               0.267442   
+std            0.113215            0.234355               0.242807   
+min            0.000000            0.000000               0.000000   
+25%            0.020097            0.188679               0.084994   
+50%            0.046749            0.339623               0.200196   
+75%            0.096238            0.547170               0.358155   
+max            1.000000            1.000000               1.000000   
+
+       bank_balance_at_application  number_of_open_accounts  \
+count                 40000.000000             40000.000000   
+mean                      0.125956                 0.498425   
+std                       0.133176                 0.372441   
+min                       0.000000                 0.000000   
+25%                       0.036573                 0.000000   
+50%                       0.085208                 0.333333   
+75%                       0.157776                 0.666667   
+max                       1.000000                 1.000000   
+
+       number_of_closed_accounts  enquiry_count  credit_utilization_ratio  \
+count               40000.000000   40000.000000              40000.000000   
+mean                    0.499525       0.500247                  0.437639   
+std                     0.407221       0.253373                  0.296586   
+min                     0.000000       0.000000                  0.000000   
+25%                     0.000000       0.375000                  0.181818   
+50%                     0.500000       0.500000                  0.393939   
+75%                     1.000000       0.625000                  0.676768   
+max                     1.000000       1.000000                  1.000000   
+
+       delinquency_ratio  avg_dpd_per_delinquency  
+count       40000.000000             40000.000000  
+mean            0.104241                 0.330385  
+std             0.172833                 0.290294  
+min             0.000000                 0.000000  
+25%             0.000000                 0.000000  
+50%             0.038000                 0.430000  
+75%             0.132000                 0.580000  
+max             1.000000                 1.000000  
+[2024-11-07 10:24:24,584] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 10:24:24,589] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 10:24:24,591] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 10:24:24,593] INFO: common : 55] Created directory: artifacts
+[2024-11-07 10:24:24,595] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 10:24:24,837] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-07 10:24:24,837] INFO: 3582508951 : 25] Initiating train test split...
+[2024-11-07 10:24:24,868] INFO: 3582508951 : 27] Train test split completed successfully.
+[2024-11-07 10:24:24,868] INFO: 3582508951 : 92] Train_df :Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-07 10:24:24,898] INFO: 3582508951 : 97]  After outlier removal train_df :(40000, 33)
+[2024-11-07 10:24:24,901] INFO: 3582508951 : 98]  After outlier removal test_df :(10000, 33)
+[2024-11-07 10:24:24,904] INFO: 3582508951 : 103] Rule 1: GST should not be more than 20% :(0, 33)
+[2024-11-07 10:24:24,904] INFO: 3582508951 : 107] Rule 2: Net disbursement should not be higher than loan_amount :(0, 33)
+[2024-11-07 10:24:24,917] INFO: 3582508951 : 112] Fixed loan_purpose column :loan_purpose
+Personal     14037
+Home         12006
+Auto          7950
+Education     6007
+Name: count, dtype: int64
+[2024-11-07 10:24:24,926] INFO: 3582508951 : 117] Generated delinquency_ratio column :count    40000.000000
+mean        10.424123
+std         17.283345
+min          0.000000
+25%          0.000000
+50%          3.800000
+75%         13.200000
+max        100.000000
+Name: delinquency_ratio, dtype: float64
+[2024-11-07 10:24:24,940] INFO: 3582508951 : 35] Removing columns...
+[2024-11-07 10:24:24,953] INFO: 3582508951 : 38] Columns removed successfully.
+[2024-11-07 10:24:24,953] INFO: 3582508951 : 35] Removing columns...
+[2024-11-07 10:24:24,953] INFO: 3582508951 : 38] Columns removed successfully.
+[2024-11-07 10:24:24,953] INFO: 3582508951 : 46] Calculating VIF...
+[2024-11-07 10:24:25,285] INFO: 3582508951 : 50] 25
+[2024-11-07 10:24:25,511] INFO: 3582508951 : 53]                 age  gender  marital_status  employment_status  \
+count  40000.000000     0.0             0.0                0.0   
+mean       0.414478     NaN             NaN                NaN   
+std        0.189544     NaN             NaN                NaN   
+min        0.000000     NaN             NaN                NaN   
+25%        0.288462     NaN             NaN                NaN   
+50%        0.423077     NaN             NaN                NaN   
+75%        0.538462     NaN             NaN                NaN   
+max        1.000000     NaN             NaN                NaN   
+
+       number_of_dependants  residence_type  years_at_current_address  city  \
+count          40000.000000             0.0              40000.000000   0.0   
+mean               0.387955             NaN                  0.499664   NaN   
+std                0.307149             NaN                  0.297851   NaN   
+min                0.000000             NaN                  0.000000   NaN   
+25%                0.000000             NaN                  0.233333   NaN   
+50%                0.400000             NaN                  0.500000   NaN   
+75%                0.600000             NaN                  0.766667   NaN   
+max                1.000000             NaN                  1.000000   NaN   
+
+       state       zipcode  ...  net_disbursement  loan_tenure_months  \
+count    0.0  40000.000000  ...      40000.000000        40000.000000   
+mean     NaN      0.523515  ...          0.083854            0.375252   
+std      NaN      0.286220  ...          0.113215            0.234355   
+min      NaN      0.000000  ...          0.000000            0.000000   
+25%      NaN      0.325424  ...          0.020097            0.188679   
+50%      NaN      0.491525  ...          0.046749            0.339623   
+75%      NaN      0.762712  ...          0.096238            0.547170   
+max      NaN      1.000000  ...          1.000000            1.000000   
+
+       principal_outstanding  bank_balance_at_application  \
+count           40000.000000                 40000.000000   
+mean                0.267442                     0.125956   
+std                 0.242807                     0.133176   
+min                 0.000000                     0.000000   
+25%                 0.084994                     0.036573   
+50%                 0.200196                     0.085208   
+75%                 0.358155                     0.157776   
+max                 1.000000                     1.000000   
+
+       number_of_open_accounts  number_of_closed_accounts  enquiry_count  \
+count             40000.000000               40000.000000   40000.000000   
+mean                  0.498425                   0.499525       0.500247   
+std                   0.372441                   0.407221       0.253373   
+min                   0.000000                   0.000000       0.000000   
+25%                   0.000000                   0.000000       0.375000   
+50%                   0.333333                   0.500000       0.500000   
+75%                   0.666667                   1.000000       0.625000   
+max                   1.000000                   1.000000       1.000000   
+
+       credit_utilization_ratio  delinquency_ratio  avg_dpd_per_delinquency  
+count              40000.000000       40000.000000             40000.000000  
+mean                   0.437639           0.104241                 0.330385  
+std                    0.296586           0.172833                 0.290294  
+min                    0.000000           0.000000                 0.000000  
+25%                    0.181818           0.000000                 0.000000  
+50%                    0.393939           0.038000                 0.430000  
+75%                    0.676768           0.132000                 0.580000  
+max                    1.000000           1.000000                 1.000000  
+
+[8 rows x 25 columns]
+[2024-11-07 10:26:01,646] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 10:26:01,653] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 10:26:01,657] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 10:26:01,660] INFO: common : 55] Created directory: artifacts
+[2024-11-07 10:26:01,662] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 10:26:01,903] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-07 10:26:01,903] INFO: 3294201971 : 25] Initiating train test split...
+[2024-11-07 10:26:01,937] INFO: 3294201971 : 27] Train test split completed successfully.
+[2024-11-07 10:26:01,940] INFO: 3294201971 : 96] Train_df :Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-07 10:26:01,956] INFO: 3294201971 : 101]  After outlier removal train_df :(40000, 33)
+[2024-11-07 10:26:01,956] INFO: 3294201971 : 102]  After outlier removal test_df :(10000, 33)
+[2024-11-07 10:26:01,956] INFO: 3294201971 : 107] Rule 1: GST should not be more than 20% :(0, 33)
+[2024-11-07 10:26:01,956] INFO: 3294201971 : 111] Rule 2: Net disbursement should not be higher than loan_amount :(0, 33)
+[2024-11-07 10:26:01,973] INFO: 3294201971 : 116] Fixed loan_purpose column :loan_purpose
+Personal     14037
+Home         12006
+Auto          7950
+Education     6007
+Name: count, dtype: int64
+[2024-11-07 10:26:01,975] INFO: 3294201971 : 121] Generated delinquency_ratio column :count    40000.000000
+mean        10.424123
+std         17.283345
+min          0.000000
+25%          0.000000
+50%          3.800000
+75%         13.200000
+max        100.000000
+Name: delinquency_ratio, dtype: float64
+[2024-11-07 10:26:01,988] INFO: 3294201971 : 35] Removing columns...
+[2024-11-07 10:26:02,006] INFO: 3294201971 : 38] Columns removed successfully.
+[2024-11-07 10:26:02,006] INFO: 3294201971 : 35] Removing columns...
+[2024-11-07 10:26:02,006] INFO: 3294201971 : 38] Columns removed successfully.
+[2024-11-07 10:26:02,006] INFO: 3294201971 : 46] Calculating VIF...
+[2024-11-07 10:28:47,344] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 10:28:47,347] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 10:28:47,347] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 10:28:47,347] INFO: common : 55] Created directory: artifacts
+[2024-11-07 10:28:47,351] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 10:28:47,515] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-07 10:28:47,515] INFO: 440896134 : 25] Initiating train test split...
+[2024-11-07 10:28:47,532] INFO: 440896134 : 27] Train test split completed successfully.
+[2024-11-07 10:28:47,532] INFO: 440896134 : 113] Train_df :Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-07 10:28:47,546] INFO: 440896134 : 118]  After outlier removal train_df :(40000, 33)
+[2024-11-07 10:28:47,546] INFO: 440896134 : 119]  After outlier removal test_df :(10000, 33)
+[2024-11-07 10:28:47,546] INFO: 440896134 : 124] Rule 1: GST should not be more than 20% :(0, 33)
+[2024-11-07 10:28:47,552] INFO: 440896134 : 128] Rule 2: Net disbursement should not be higher than loan_amount :(0, 33)
+[2024-11-07 10:28:47,559] INFO: 440896134 : 133] Fixed loan_purpose column :loan_purpose
+Personal     14037
+Home         12006
+Auto          7950
+Education     6007
+Name: count, dtype: int64
+[2024-11-07 10:28:47,559] INFO: 440896134 : 138] Generated delinquency_ratio column :count    40000.000000
+mean        10.424123
+std         17.283345
+min          0.000000
+25%          0.000000
+50%          3.800000
+75%         13.200000
+max        100.000000
+Name: delinquency_ratio, dtype: float64
+[2024-11-07 10:28:47,573] INFO: 440896134 : 35] Removing columns...
+[2024-11-07 10:28:47,585] INFO: 440896134 : 38] Columns removed successfully.
+[2024-11-07 10:28:47,585] INFO: 440896134 : 35] Removing columns...
+[2024-11-07 10:28:47,588] INFO: 440896134 : 38] Columns removed successfully.
+[2024-11-07 10:28:47,588] INFO: 440896134 : 47] Calculating VIF...
+[2024-11-07 10:31:12,431] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 10:31:12,436] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 10:31:12,440] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 10:31:12,441] INFO: common : 55] Created directory: artifacts
+[2024-11-07 10:31:12,443] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 10:31:12,668] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-07 10:31:12,668] INFO: 2400739344 : 25] Initiating train test split...
+[2024-11-07 10:31:12,689] INFO: 2400739344 : 27] Train test split completed successfully.
+[2024-11-07 10:31:12,689] INFO: 2400739344 : 92] Train_df :Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-07 10:31:12,704] INFO: 2400739344 : 97]  After outlier removal train_df :(40000, 33)
+[2024-11-07 10:31:12,704] INFO: 2400739344 : 98]  After outlier removal test_df :(10000, 33)
+[2024-11-07 10:31:12,704] INFO: 2400739344 : 103] Rule 1: GST should not be more than 20% :(0, 33)
+[2024-11-07 10:31:12,716] INFO: 2400739344 : 107] Rule 2: Net disbursement should not be higher than loan_amount :(0, 33)
+[2024-11-07 10:31:12,722] INFO: 2400739344 : 112] Fixed loan_purpose column :loan_purpose
+Personal     14037
+Home         12006
+Auto          7950
+Education     6007
+Name: count, dtype: int64
+[2024-11-07 10:31:12,732] INFO: 2400739344 : 117] Generated delinquency_ratio column :count    40000.000000
+mean        10.424123
+std         17.283345
+min          0.000000
+25%          0.000000
+50%          3.800000
+75%         13.200000
+max        100.000000
+Name: delinquency_ratio, dtype: float64
+[2024-11-07 10:31:12,748] INFO: 2400739344 : 35] Removing columns...
+[2024-11-07 10:31:12,752] INFO: 2400739344 : 38] Columns removed successfully.
+[2024-11-07 10:31:12,756] INFO: 2400739344 : 35] Removing columns...
+[2024-11-07 10:31:12,760] INFO: 2400739344 : 38] Columns removed successfully.
+[2024-11-07 10:31:12,760] INFO: 2400739344 : 46] Calculating VIF...
+[2024-11-07 10:31:12,772] INFO: 2400739344 : 50] 17
+[2024-11-07 10:31:12,852] INFO: 2400739344 : 53]                 age  number_of_dependants  years_at_current_address  \
+count  40000.000000          40000.000000              40000.000000   
+mean       0.414478              0.387955                  0.499664   
+std        0.189544              0.307149                  0.297851   
+min        0.000000              0.000000                  0.000000   
+25%        0.288462              0.000000                  0.233333   
+50%        0.423077              0.400000                  0.500000   
+75%        0.538462              0.600000                  0.766667   
+max        1.000000              1.000000                  1.000000   
+
+            zipcode  sanction_amount  processing_fee           gst  \
+count  40000.000000     40000.000000    40000.000000  40000.000000   
+mean       0.523515         0.090387        0.014184      0.083854   
+std        0.286220         0.120864        0.021113      0.113215   
+min        0.000000         0.000000        0.000000      0.000000   
+25%        0.325424         0.021850        0.003373      0.020097   
+50%        0.491525         0.050791        0.007848      0.046749   
+75%        0.762712         0.098936        0.016157      0.096238   
+max        1.000000         1.000000        1.000000      1.000000   
+
+       net_disbursement  loan_tenure_months  principal_outstanding  \
+count      40000.000000        40000.000000           40000.000000   
+mean           0.083854            0.375252               0.267442   
+std            0.113215            0.234355               0.242807   
+min            0.000000            0.000000               0.000000   
+25%            0.020097            0.188679               0.084994   
+50%            0.046749            0.339623               0.200196   
+75%            0.096238            0.547170               0.358155   
+max            1.000000            1.000000               1.000000   
+
+       bank_balance_at_application  number_of_open_accounts  \
+count                 40000.000000             40000.000000   
+mean                      0.125956                 0.498425   
+std                       0.133176                 0.372441   
+min                       0.000000                 0.000000   
+25%                       0.036573                 0.000000   
+50%                       0.085208                 0.333333   
+75%                       0.157776                 0.666667   
+max                       1.000000                 1.000000   
+
+       number_of_closed_accounts  enquiry_count  credit_utilization_ratio  \
+count               40000.000000   40000.000000              40000.000000   
+mean                    0.499525       0.500247                  0.437639   
+std                     0.407221       0.253373                  0.296586   
+min                     0.000000       0.000000                  0.000000   
+25%                     0.000000       0.375000                  0.181818   
+50%                     0.500000       0.500000                  0.393939   
+75%                     1.000000       0.625000                  0.676768   
+max                     1.000000       1.000000                  1.000000   
+
+       delinquency_ratio  avg_dpd_per_delinquency  
+count       40000.000000             40000.000000  
+mean            0.104241                 0.330385  
+std             0.172833                 0.290294  
+min             0.000000                 0.000000  
+25%             0.000000                 0.000000  
+50%             0.038000                 0.430000  
+75%             0.132000                 0.580000  
+max             1.000000                 1.000000  
+[2024-11-07 10:38:14,625] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 10:38:14,631] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 10:38:14,636] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 10:38:14,638] INFO: common : 55] Created directory: artifacts
+[2024-11-07 10:38:14,642] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 10:38:14,849] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-07 10:38:14,849] INFO: 4119662426 : 25] Initiating train test split...
+[2024-11-07 10:38:14,869] INFO: 4119662426 : 27] Train test split completed successfully.
+[2024-11-07 10:38:14,873] INFO: 4119662426 : 93] Train_df :Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-07 10:38:14,890] INFO: 4119662426 : 98]  After outlier removal train_df :(40000, 33)
+[2024-11-07 10:38:14,892] INFO: 4119662426 : 99]  After outlier removal test_df :(10000, 33)
+[2024-11-07 10:38:14,894] INFO: 4119662426 : 104] Rule 1: GST should not be more than 20% :(0, 33)
+[2024-11-07 10:38:14,897] INFO: 4119662426 : 108] Rule 2: Net disbursement should not be higher than loan_amount :(0, 33)
+[2024-11-07 10:38:14,903] INFO: 4119662426 : 113] Fixed loan_purpose column :loan_purpose
+Personal     14037
+Home         12006
+Auto          7950
+Education     6007
+Name: count, dtype: int64
+[2024-11-07 10:38:14,908] INFO: 4119662426 : 118] Generated delinquency_ratio column :count    40000.000000
+mean        10.424123
+std         17.283345
+min          0.000000
+25%          0.000000
+50%          3.800000
+75%         13.200000
+max        100.000000
+Name: delinquency_ratio, dtype: float64
+[2024-11-07 10:38:14,923] INFO: 4119662426 : 35] Removing columns...
+[2024-11-07 10:38:14,934] INFO: 4119662426 : 38] Columns removed successfully.
+[2024-11-07 10:38:14,936] INFO: 4119662426 : 35] Removing columns...
+[2024-11-07 10:38:14,939] INFO: 4119662426 : 38] Columns removed successfully.
+[2024-11-07 10:38:14,939] INFO: 4119662426 : 46] Calculating VIF...
+[2024-11-07 10:38:14,950] INFO: 4119662426 : 50]  columns selected for scaling17
+[2024-11-07 10:38:15,020] INFO: 4119662426 : 53]                 age  number_of_dependants  years_at_current_address  \
+count  40000.000000          40000.000000              40000.000000   
+mean       0.414478              0.387955                  0.499664   
+std        0.189544              0.307149                  0.297851   
+min        0.000000              0.000000                  0.000000   
+25%        0.288462              0.000000                  0.233333   
+50%        0.423077              0.400000                  0.500000   
+75%        0.538462              0.600000                  0.766667   
+max        1.000000              1.000000                  1.000000   
+
+            zipcode  sanction_amount  processing_fee           gst  \
+count  40000.000000     40000.000000    40000.000000  40000.000000   
+mean       0.523515         0.090387        0.014184      0.083854   
+std        0.286220         0.120864        0.021113      0.113215   
+min        0.000000         0.000000        0.000000      0.000000   
+25%        0.325424         0.021850        0.003373      0.020097   
+50%        0.491525         0.050791        0.007848      0.046749   
+75%        0.762712         0.098936        0.016157      0.096238   
+max        1.000000         1.000000        1.000000      1.000000   
+
+       net_disbursement  loan_tenure_months  principal_outstanding  \
+count      40000.000000        40000.000000           40000.000000   
+mean           0.083854            0.375252               0.267442   
+std            0.113215            0.234355               0.242807   
+min            0.000000            0.000000               0.000000   
+25%            0.020097            0.188679               0.084994   
+50%            0.046749            0.339623               0.200196   
+75%            0.096238            0.547170               0.358155   
+max            1.000000            1.000000               1.000000   
+
+       bank_balance_at_application  number_of_open_accounts  \
+count                 40000.000000             40000.000000   
+mean                      0.125956                 0.498425   
+std                       0.133176                 0.372441   
+min                       0.000000                 0.000000   
+25%                       0.036573                 0.000000   
+50%                       0.085208                 0.333333   
+75%                       0.157776                 0.666667   
+max                       1.000000                 1.000000   
+
+       number_of_closed_accounts  enquiry_count  credit_utilization_ratio  \
+count               40000.000000   40000.000000              40000.000000   
+mean                    0.499525       0.500247                  0.437639   
+std                     0.407221       0.253373                  0.296586   
+min                     0.000000       0.000000                  0.000000   
+25%                     0.000000       0.375000                  0.181818   
+50%                     0.500000       0.500000                  0.393939   
+75%                     1.000000       0.625000                  0.676768   
+max                     1.000000       1.000000                  1.000000   
+
+       delinquency_ratio  avg_dpd_per_delinquency  
+count       40000.000000             40000.000000  
+mean            0.104241                 0.330385  
+std             0.172833                 0.290294  
+min             0.000000                 0.000000  
+25%             0.000000                 0.000000  
+50%             0.038000                 0.430000  
+75%             0.132000                 0.580000  
+max             1.000000                 1.000000  
+[2024-11-07 10:39:54,823] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 10:39:54,829] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 10:39:54,833] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 10:39:54,834] INFO: common : 55] Created directory: artifacts
+[2024-11-07 10:39:54,836] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 10:39:55,078] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-07 10:39:55,078] INFO: 2136770334 : 25] Initiating train test split...
+[2024-11-07 10:39:55,092] INFO: 2136770334 : 27] Train test split completed successfully.
+[2024-11-07 10:39:55,092] INFO: 2136770334 : 114] Train_df :Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-07 10:39:55,106] INFO: 2136770334 : 119]  After outlier removal train_df :(40000, 33)
+[2024-11-07 10:39:55,106] INFO: 2136770334 : 120]  After outlier removal test_df :(10000, 33)
+[2024-11-07 10:39:55,118] INFO: 2136770334 : 125] Rule 1: GST should not be more than 20% :(0, 33)
+[2024-11-07 10:39:55,120] INFO: 2136770334 : 129] Rule 2: Net disbursement should not be higher than loan_amount :(0, 33)
+[2024-11-07 10:39:55,129] INFO: 2136770334 : 134] Fixed loan_purpose column :loan_purpose
+Personal     14037
+Home         12006
+Auto          7950
+Education     6007
+Name: count, dtype: int64
+[2024-11-07 10:39:55,139] INFO: 2136770334 : 139] Generated delinquency_ratio column :count    40000.000000
+mean        10.424123
+std         17.283345
+min          0.000000
+25%          0.000000
+50%          3.800000
+75%         13.200000
+max        100.000000
+Name: delinquency_ratio, dtype: float64
+[2024-11-07 10:39:55,155] INFO: 2136770334 : 35] Removing columns...
+[2024-11-07 10:39:55,174] INFO: 2136770334 : 38] Columns removed successfully.
+[2024-11-07 10:39:55,174] INFO: 2136770334 : 35] Removing columns...
+[2024-11-07 10:39:55,190] INFO: 2136770334 : 38] Columns removed successfully.
+[2024-11-07 10:39:55,194] INFO: 2136770334 : 48] Calculating VIF...
+[2024-11-07 10:39:55,203] INFO: 2136770334 : 55] Columns selected for scaling: 17
+[2024-11-07 10:39:55,282] INFO: 2136770334 : 62] Descriptive statistics after scaling: 
+                age  number_of_dependants  years_at_current_address  \
+count  40000.000000          40000.000000              40000.000000   
+mean       0.414478              0.387955                  0.499664   
+std        0.189544              0.307149                  0.297851   
+min        0.000000              0.000000                  0.000000   
+25%        0.288462              0.000000                  0.233333   
+50%        0.423077              0.400000                  0.500000   
+75%        0.538462              0.600000                  0.766667   
+max        1.000000              1.000000                  1.000000   
+
+            zipcode  sanction_amount  processing_fee           gst  \
+count  40000.000000     40000.000000    40000.000000  40000.000000   
+mean       0.523515         0.090387        0.014184      0.083854   
+std        0.286220         0.120864        0.021113      0.113215   
+min        0.000000         0.000000        0.000000      0.000000   
+25%        0.325424         0.021850        0.003373      0.020097   
+50%        0.491525         0.050791        0.007848      0.046749   
+75%        0.762712         0.098936        0.016157      0.096238   
+max        1.000000         1.000000        1.000000      1.000000   
+
+       net_disbursement  loan_tenure_months  principal_outstanding  \
+count      40000.000000        40000.000000           40000.000000   
+mean           0.083854            0.375252               0.267442   
+std            0.113215            0.234355               0.242807   
+min            0.000000            0.000000               0.000000   
+25%            0.020097            0.188679               0.084994   
+50%            0.046749            0.339623               0.200196   
+75%            0.096238            0.547170               0.358155   
+max            1.000000            1.000000               1.000000   
+
+       bank_balance_at_application  number_of_open_accounts  \
+count                 40000.000000             40000.000000   
+mean                      0.125956                 0.498425   
+std                       0.133176                 0.372441   
+min                       0.000000                 0.000000   
+25%                       0.036573                 0.000000   
+50%                       0.085208                 0.333333   
+75%                       0.157776                 0.666667   
+max                       1.000000                 1.000000   
+
+       number_of_closed_accounts  enquiry_count  credit_utilization_ratio  \
+count               40000.000000   40000.000000              40000.000000   
+mean                    0.499525       0.500247                  0.437639   
+std                     0.407221       0.253373                  0.296586   
+min                     0.000000       0.000000                  0.000000   
+25%                     0.000000       0.375000                  0.181818   
+50%                     0.500000       0.500000                  0.393939   
+75%                     1.000000       0.625000                  0.676768   
+max                     1.000000       1.000000                  1.000000   
+
+       delinquency_ratio  avg_dpd_per_delinquency  
+count       40000.000000             40000.000000  
+mean            0.104241                 0.330385  
+std             0.172833                 0.290294  
+min             0.000000                 0.000000  
+25%             0.000000                 0.000000  
+50%             0.038000                 0.430000  
+75%             0.132000                 0.580000  
+max             1.000000                 1.000000  
+[2024-11-07 10:39:55,374] ERROR: 2136770334 : 83] Error while calculating VIF: ufunc 'isfinite' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+[2024-11-07 10:42:16,729] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-07 10:42:16,735] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-07 10:42:16,739] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-07 10:42:16,741] INFO: common : 55] Created directory: artifacts
+[2024-11-07 10:42:16,741] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-07 10:42:16,941] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-07 10:42:16,949] INFO: 189807867 : 25] Initiating train test split...
+[2024-11-07 10:42:16,960] INFO: 189807867 : 27] Train test split completed successfully.
+[2024-11-07 10:42:16,970] INFO: 189807867 : 94] Train_df :Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-07 10:42:16,992] INFO: 189807867 : 99]  After outlier removal train_df :(40000, 33)
+[2024-11-07 10:42:16,992] INFO: 189807867 : 100]  After outlier removal test_df :(10000, 33)
+[2024-11-07 10:42:16,997] INFO: 189807867 : 105] Rule 1: GST should not be more than 20% :(0, 33)
+[2024-11-07 10:42:16,997] INFO: 189807867 : 109] Rule 2: Net disbursement should not be higher than loan_amount :(0, 33)
+[2024-11-07 10:42:17,009] INFO: 189807867 : 114] Fixed loan_purpose column :loan_purpose
+Personal     14037
+Home         12006
+Auto          7950
+Education     6007
+Name: count, dtype: int64
+[2024-11-07 10:42:17,022] INFO: 189807867 : 119] Generated delinquency_ratio column :count    40000.000000
+mean        10.424123
+std         17.283345
+min          0.000000
+25%          0.000000
+50%          3.800000
+75%         13.200000
+max        100.000000
+Name: delinquency_ratio, dtype: float64
+[2024-11-07 10:42:17,038] INFO: 189807867 : 35] Removing columns...
+[2024-11-07 10:42:17,040] INFO: 189807867 : 38] Columns removed successfully.
+[2024-11-07 10:42:17,046] INFO: 189807867 : 35] Removing columns...
+[2024-11-07 10:42:17,046] INFO: 189807867 : 38] Columns removed successfully.
+[2024-11-07 10:42:17,050] INFO: 189807867 : 46] Calculating VIF...
+[2024-11-07 10:42:17,061] INFO: 189807867 : 50]  columns selected for scaling17
+[2024-11-07 10:42:17,092] INFO: 189807867 : 52]        age gender marital_status employment_status  number_of_dependants  \
+39087   29      F         Single          Salaried                     2   
+30893   36      F        Married     Self-Employed                     4   
+
+      residence_type  years_at_current_address     city          state  \
+39087          Owned                         2  Lucknow  Uttar Pradesh   
+30893       Mortgage                        25    Delhi          Delhi   
+
+       zipcode  ... net_disbursement loan_tenure_months  \
+39087   226001  ...           549600                 21   
+30893   110001  ...          8219200                 30   
+
+       principal_outstanding  bank_balance_at_application  \
+39087                 488968                       222727   
+30893                1663436                      1245974   
+
+       number_of_open_accounts  number_of_closed_accounts  enquiry_count  \
+39087                        3                          2              5   
+30893                        3                          2              3   
+
+       credit_utilization_ratio  delinquency_ratio  avg_dpd_per_delinquency  
+39087                        92                0.0                      0.0  
+30893                        53               12.8                      7.0  
+
+[2 rows x 25 columns]
+[2024-11-07 10:42:17,174] INFO: 189807867 : 54]                 age  number_of_dependants  years_at_current_address  \
+count  40000.000000          40000.000000              40000.000000   
+mean       0.414478              0.387955                  0.499664   
+std        0.189544              0.307149                  0.297851   
+min        0.000000              0.000000                  0.000000   
+25%        0.288462              0.000000                  0.233333   
+50%        0.423077              0.400000                  0.500000   
+75%        0.538462              0.600000                  0.766667   
+max        1.000000              1.000000                  1.000000   
+
+            zipcode  sanction_amount  processing_fee           gst  \
+count  40000.000000     40000.000000    40000.000000  40000.000000   
+mean       0.523515         0.090387        0.014184      0.083854   
+std        0.286220         0.120864        0.021113      0.113215   
+min        0.000000         0.000000        0.000000      0.000000   
+25%        0.325424         0.021850        0.003373      0.020097   
+50%        0.491525         0.050791        0.007848      0.046749   
+75%        0.762712         0.098936        0.016157      0.096238   
+max        1.000000         1.000000        1.000000      1.000000   
+
+       net_disbursement  loan_tenure_months  principal_outstanding  \
+count      40000.000000        40000.000000           40000.000000   
+mean           0.083854            0.375252               0.267442   
+std            0.113215            0.234355               0.242807   
+min            0.000000            0.000000               0.000000   
+25%            0.020097            0.188679               0.084994   
+50%            0.046749            0.339623               0.200196   
+75%            0.096238            0.547170               0.358155   
+max            1.000000            1.000000               1.000000   
+
+       bank_balance_at_application  number_of_open_accounts  \
+count                 40000.000000             40000.000000   
+mean                      0.125956                 0.498425   
+std                       0.133176                 0.372441   
+min                       0.000000                 0.000000   
+25%                       0.036573                 0.000000   
+50%                       0.085208                 0.333333   
+75%                       0.157776                 0.666667   
+max                       1.000000                 1.000000   
+
+       number_of_closed_accounts  enquiry_count  credit_utilization_ratio  \
+count               40000.000000   40000.000000              40000.000000   
+mean                    0.499525       0.500247                  0.437639   
+std                     0.407221       0.253373                  0.296586   
+min                     0.000000       0.000000                  0.000000   
+25%                     0.000000       0.375000                  0.181818   
+50%                     0.500000       0.500000                  0.393939   
+75%                     1.000000       0.625000                  0.676768   
+max                     1.000000       1.000000                  1.000000   
+
+       delinquency_ratio  avg_dpd_per_delinquency  
+count       40000.000000             40000.000000  
+mean            0.104241                 0.330385  
+std             0.172833                 0.290294  
+min             0.000000                 0.000000  
+25%             0.000000                 0.000000  
+50%             0.038000                 0.430000  
+75%             0.132000                 0.580000  
+max             1.000000                 1.000000  
+[2024-11-10 10:25:23,739] INFO: __init__ : 26] Credit Risk Model Building Started
+[2024-11-10 10:25:35,123] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-10 10:25:35,128] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-10 10:25:35,137] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-10 10:25:35,140] INFO: common : 55] Created directory: artifacts
+[2024-11-10 10:25:35,142] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-10 10:25:35,428] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-10 10:25:35,430] INFO: 2872833841 : 25] Initiating train test split...
+[2024-11-10 10:25:35,455] INFO: 2872833841 : 27] Train test split completed successfully.
+[2024-11-10 10:25:35,455] INFO: 2872833841 : 91] Train_df :Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-10 10:25:35,499] INFO: 2872833841 : 96]  After outlier removal train_df :(40000, 33)
+[2024-11-10 10:25:35,499] INFO: 2872833841 : 97]  After outlier removal test_df :(10000, 33)
+[2024-11-10 10:25:35,504] INFO: 2872833841 : 102] Rule 1: GST should not be more than 20% :(0, 33)
+[2024-11-10 10:25:35,505] INFO: 2872833841 : 106] Rule 2: Net disbursement should not be higher than loan_amount :(0, 33)
+[2024-11-10 10:25:35,523] INFO: 2872833841 : 111] Fixed loan_purpose column :loan_purpose
+Personal     14037
+Home         12006
+Auto          7950
+Education     6007
+Name: count, dtype: int64
+[2024-11-10 10:25:35,527] INFO: 2872833841 : 116] Generated delinquency_ratio column :count    40000.000000
+mean        10.424123
+std         17.283345
+min          0.000000
+25%          0.000000
+50%          3.800000
+75%         13.200000
+max        100.000000
+Name: delinquency_ratio, dtype: float64
+[2024-11-10 10:25:35,539] INFO: 2872833841 : 35] Removing columns...
+[2024-11-10 10:25:35,559] INFO: 2872833841 : 38] Columns removed successfully.
+[2024-11-10 10:25:35,559] INFO: 2872833841 : 35] Removing columns...
+[2024-11-10 10:25:35,559] INFO: 2872833841 : 38] Columns removed successfully.
+[2024-11-10 10:25:35,571] INFO: 2872833841 : 46] Calculating VIF...
+[2024-11-10 10:26:22,085] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-10 10:26:22,085] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-10 10:26:22,085] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-10 10:26:22,085] INFO: common : 55] Created directory: artifacts
+[2024-11-10 10:26:22,098] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-10 10:26:22,309] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-10 10:26:22,309] INFO: 1413243935 : 25] Initiating train test split...
+[2024-11-10 10:26:22,329] INFO: 1413243935 : 27] Train test split completed successfully.
+[2024-11-10 10:26:22,336] INFO: 1413243935 : 91] Train_df :Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-10 10:26:22,356] INFO: 1413243935 : 96]  After outlier removal train_df :(40000, 33)
+[2024-11-10 10:26:22,357] INFO: 1413243935 : 97]  After outlier removal test_df :(10000, 33)
+[2024-11-10 10:26:22,361] INFO: 1413243935 : 102] Rule 1: GST should not be more than 20% :(0, 33)
+[2024-11-10 10:26:22,363] INFO: 1413243935 : 106] Rule 2: Net disbursement should not be higher than loan_amount :(0, 33)
+[2024-11-10 10:26:22,373] INFO: 1413243935 : 111] Fixed loan_purpose column :loan_purpose
+Personal     14037
+Home         12006
+Auto          7950
+Education     6007
+Name: count, dtype: int64
+[2024-11-10 10:26:22,379] INFO: 1413243935 : 116] Generated delinquency_ratio column :count    40000.000000
+mean        10.424123
+std         17.283345
+min          0.000000
+25%          0.000000
+50%          3.800000
+75%         13.200000
+max        100.000000
+Name: delinquency_ratio, dtype: float64
+[2024-11-10 10:26:22,392] INFO: 1413243935 : 35] Removing columns...
+[2024-11-10 10:26:22,392] INFO: 1413243935 : 38] Columns removed successfully.
+[2024-11-10 10:26:22,405] INFO: 1413243935 : 35] Removing columns...
+[2024-11-10 10:26:22,406] INFO: 1413243935 : 38] Columns removed successfully.
+[2024-11-10 10:30:21,559] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-10 10:30:21,562] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-10 10:30:21,571] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-10 10:30:21,574] INFO: common : 55] Created directory: artifacts
+[2024-11-10 10:30:21,575] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-10 10:32:55,922] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-10 10:32:55,937] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-10 10:32:55,940] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-10 10:32:55,942] INFO: common : 55] Created directory: artifacts
+[2024-11-10 10:32:55,944] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-10 10:32:56,142] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-10 10:32:56,142] INFO: 3585475585 : 24] Initiating train test split...
+[2024-11-10 10:32:56,155] INFO: 3585475585 : 26] Train test split completed successfully.
+[2024-11-10 10:32:56,171] INFO: 3585475585 : 48] Train_df :Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-10 10:32:56,191] INFO: 3585475585 : 53]  After outlier removal train_df :(40000, 33)
+[2024-11-10 10:32:56,191] INFO: 3585475585 : 54]  After outlier removal test_df :(10000, 33)
+[2024-11-10 10:32:56,191] INFO: 3585475585 : 59] Rule 1: GST should not be more than 20% :(0, 33)
+[2024-11-10 10:32:56,191] INFO: 3585475585 : 63] Rule 2: Net disbursement should not be higher than loan_amount :(0, 33)
+[2024-11-10 10:32:56,210] INFO: 3585475585 : 68] Fixed loan_purpose column :loan_purpose
+Personal     14037
+Home         12006
+Auto          7950
+Education     6007
+Name: count, dtype: int64
+[2024-11-10 10:32:56,210] INFO: 3585475585 : 73] Generated delinquency_ratio column :count    40000.000000
+mean        10.424123
+std         17.283345
+min          0.000000
+25%          0.000000
+50%          3.800000
+75%         13.200000
+max        100.000000
+Name: delinquency_ratio, dtype: float64
+[2024-11-10 10:32:56,230] INFO: 3585475585 : 34] Removing columns...
+[2024-11-10 10:40:19,735] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-10 10:40:19,740] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-10 10:40:19,744] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-10 10:40:19,746] INFO: common : 55] Created directory: artifacts
+[2024-11-10 10:40:19,750] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-10 10:40:19,972] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-10 10:40:19,972] INFO: 2084609719 : 24] Initiating train test split...
+[2024-11-10 10:40:19,995] INFO: 2084609719 : 26] Train test split completed successfully.
+[2024-11-10 10:40:19,995] INFO: 2084609719 : 48] Train_df :Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-10 10:40:20,024] INFO: 2084609719 : 53]  After outlier removal train_df :(40000, 33)
+[2024-11-10 10:40:20,026] INFO: 2084609719 : 54]  After outlier removal test_df :(10000, 33)
+[2024-11-10 10:40:20,026] INFO: 2084609719 : 59] Rule 1: GST should not be more than 20% :(0, 33)
+[2024-11-10 10:40:20,026] INFO: 2084609719 : 63] Rule 2: Net disbursement should not be higher than loan_amount :(0, 33)
+[2024-11-10 10:40:20,039] INFO: 2084609719 : 68] Fixed loan_purpose column :loan_purpose
+Personal     14037
+Home         12006
+Auto          7950
+Education     6007
+Name: count, dtype: int64
+[2024-11-10 10:40:20,043] INFO: 2084609719 : 77] Generated delinquency_ratio column :count    40000.000000
+mean        10.424123
+std         17.283345
+min          0.000000
+25%          0.000000
+50%          3.800000
+75%         13.200000
+max        100.000000
+Name: delinquency_ratio, dtype: float64
+[2024-11-10 10:40:20,061] INFO: 2084609719 : 34] Removing columns...
+[2024-11-10 10:40:20,061] INFO: 2084609719 : 37] Columns removed successfully.
+[2024-11-10 10:40:20,072] INFO: 2084609719 : 34] Removing columns...
+[2024-11-10 10:40:20,073] INFO: 2084609719 : 37] Columns removed successfully.
+[2024-11-10 10:47:39,664] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-10 10:47:39,665] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-10 10:47:39,665] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-10 10:47:39,665] INFO: common : 55] Created directory: artifacts
+[2024-11-10 10:47:39,674] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-10 10:47:39,850] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-10 10:47:39,857] INFO: 4094972786 : 24] Initiating train test split...
+[2024-11-10 10:47:39,873] INFO: 4094972786 : 26] Train test split completed successfully.
+[2024-11-10 10:47:39,876] INFO: 4094972786 : 48] Train_df :Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-10 10:47:39,890] INFO: 4094972786 : 53]  After outlier removal train_df :(40000, 33)
+[2024-11-10 10:47:39,893] INFO: 4094972786 : 54]  After outlier removal test_df :(10000, 33)
+[2024-11-10 10:47:39,896] INFO: 4094972786 : 59] Rule 1: GST should not be more than 20% :(0, 33)
+[2024-11-10 10:47:39,897] INFO: 4094972786 : 63] Rule 2: Net disbursement should not be higher than loan_amount :(0, 33)
+[2024-11-10 10:47:39,907] INFO: 4094972786 : 68] Rule 3 : Fixed loan_purpose column :loan_purpose
+Personal     14037
+Home         12006
+Auto          7950
+Education     6007
+Name: count, dtype: int64
+[2024-11-10 10:47:39,910] INFO: 4094972786 : 73] Rule 4 : Generated loan_to_income column(LTI)
+[2024-11-10 10:47:39,910] INFO: 4094972786 : 78] Generated delinquency_ratio column :count    40000.000000
+mean        10.424123
+std         17.283345
+min          0.000000
+25%          0.000000
+50%          3.800000
+75%         13.200000
+max        100.000000
+Name: delinquency_ratio, dtype: float64
+[2024-11-10 10:47:39,926] INFO: 4094972786 : 34] Removing columns...
+[2024-11-10 10:47:39,938] INFO: 4094972786 : 37] Columns removed successfully.
+[2024-11-10 10:47:39,942] INFO: 4094972786 : 34] Removing columns...
+[2024-11-10 10:47:39,942] INFO: 4094972786 : 37] Columns removed successfully.
+[2024-11-10 10:47:40,292] INFO: common : 97] Successfully saved DataFrame to: artifacts\data_cleaning\train_data.csv
+[2024-11-10 10:47:40,367] INFO: common : 97] Successfully saved DataFrame to: artifacts\data_cleaning\test_data.csv
+[2024-11-10 10:57:26,061] INFO: __init__ : 26] Credit Risk Model Building Started
+[2024-11-10 10:58:01,607] INFO: __init__ : 26] Credit Risk Model Building Started
+[2024-11-10 10:59:04,433] INFO: __init__ : 26] Credit Risk Model Building Started
+[2024-11-10 11:01:37,310] INFO: __init__ : 26] Credit Risk Model Building Started
+[2024-11-10 11:01:39,534] INFO: main : 12] >>>>>>>>>>>Starting Data Ingestion Stage<<<<<<<<<<<<<
+[2024-11-10 11:01:39,541] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-10 11:01:39,548] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-10 11:01:39,550] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-10 11:01:39,550] INFO: common : 55] Created directory: artifacts
+[2024-11-10 11:01:39,553] INFO: common : 55] Created directory: artifacts/data_ingestion
+[2024-11-10 11:01:39,553] INFO: data_ingestion : 17] Loading customers data...
+[2024-11-10 11:01:39,678] INFO: common : 79] Successfully loaded DataFrame from: data\customers.csv
+[2024-11-10 11:01:39,678] INFO: data_ingestion : 20] Loading loans data...
+[2024-11-10 11:01:39,835] INFO: common : 79] Successfully loaded DataFrame from: data\loans.csv
+[2024-11-10 11:01:39,835] INFO: data_ingestion : 23] Loading bureau data...
+[2024-11-10 11:01:39,936] INFO: common : 79] Successfully loaded DataFrame from: data\bureau_data.csv
+[2024-11-10 11:01:39,936] INFO: data_ingestion : 26] The Shape of customers data: (50000, 12)
+[2024-11-10 11:01:39,936] INFO: data_ingestion : 27] The Shape of loans data: (50000, 15)
+[2024-11-10 11:01:39,936] INFO: data_ingestion : 28] The Shape of bureau data: (50000, 8)
+[2024-11-10 11:01:40,536] INFO: common : 97] Successfully saved DataFrame to: artifacts\data_ingestion\data.csv
+[2024-11-10 11:01:40,537] INFO: main : 14] >>>>>>>>>>>Completed Data Ingestion Stage<<<<<<<<<<<<<
+[2024-11-10 11:01:40,537] INFO: main : 24] >>>>>>>>>>>Starting Data Pre-Processing Stage<<<<<<<<<<<<<
+[2024-11-10 11:01:40,550] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-10 11:01:40,552] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-10 11:01:40,552] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-10 11:01:40,552] INFO: common : 55] Created directory: artifacts
+[2024-11-10 11:01:40,552] INFO: common : 55] Created directory: artifacts/data_preprocessing
+[2024-11-10 11:01:40,767] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_ingestion\data.csv
+[2024-11-10 11:01:40,799] INFO: data_preprocessing : 26] The Valure counts for 'default' column: default
+0    45703
+1     4297
+Name: count, dtype: int64
+[2024-11-10 11:01:40,809] INFO: data_preprocessing : 42] No missing values found in column 'cust_id'
+[2024-11-10 11:01:40,809] INFO: data_preprocessing : 42] No missing values found in column 'age'
+[2024-11-10 11:01:40,814] INFO: data_preprocessing : 42] No missing values found in column 'gender'
+[2024-11-10 11:01:40,820] INFO: data_preprocessing : 42] No missing values found in column 'marital_status'
+[2024-11-10 11:01:40,825] INFO: data_preprocessing : 42] No missing values found in column 'employment_status'
+[2024-11-10 11:01:40,828] INFO: data_preprocessing : 42] No missing values found in column 'income'
+[2024-11-10 11:01:40,828] INFO: data_preprocessing : 42] No missing values found in column 'number_of_dependants'
+[2024-11-10 11:01:40,828] WARNING: data_preprocessing : 33] Missing values found in column 'residence_type', replacing with 'Unknown'
+[2024-11-10 11:01:40,848] INFO: data_preprocessing : 35] Missing values replaced in column 'residence_type' with mode 'Owned'
+[2024-11-10 11:01:40,848] INFO: data_preprocessing : 42] No missing values found in column 'years_at_current_address'
+[2024-11-10 11:01:40,848] INFO: data_preprocessing : 42] No missing values found in column 'city'
+[2024-11-10 11:01:40,848] INFO: data_preprocessing : 42] No missing values found in column 'state'
+[2024-11-10 11:01:40,848] INFO: data_preprocessing : 42] No missing values found in column 'zipcode'
+[2024-11-10 11:01:40,857] INFO: data_preprocessing : 42] No missing values found in column 'loan_id'
+[2024-11-10 11:01:40,862] INFO: data_preprocessing : 42] No missing values found in column 'loan_purpose'
+[2024-11-10 11:01:40,865] INFO: data_preprocessing : 42] No missing values found in column 'loan_type'
+[2024-11-10 11:01:40,865] INFO: data_preprocessing : 42] No missing values found in column 'sanction_amount'
+[2024-11-10 11:01:40,865] INFO: data_preprocessing : 42] No missing values found in column 'loan_amount'
+[2024-11-10 11:01:40,865] INFO: data_preprocessing : 42] No missing values found in column 'processing_fee'
+[2024-11-10 11:01:40,869] INFO: data_preprocessing : 42] No missing values found in column 'gst'
+[2024-11-10 11:01:40,869] INFO: data_preprocessing : 42] No missing values found in column 'net_disbursement'
+[2024-11-10 11:01:40,869] INFO: data_preprocessing : 42] No missing values found in column 'loan_tenure_months'
+[2024-11-10 11:01:40,869] INFO: data_preprocessing : 42] No missing values found in column 'principal_outstanding'
+[2024-11-10 11:01:40,869] INFO: data_preprocessing : 42] No missing values found in column 'bank_balance_at_application'
+[2024-11-10 11:01:40,875] INFO: data_preprocessing : 42] No missing values found in column 'disbursal_date'
+[2024-11-10 11:01:40,875] INFO: data_preprocessing : 42] No missing values found in column 'installment_start_dt'
+[2024-11-10 11:01:40,875] INFO: data_preprocessing : 42] No missing values found in column 'default'
+[2024-11-10 11:01:40,875] INFO: data_preprocessing : 42] No missing values found in column 'number_of_open_accounts'
+[2024-11-10 11:01:40,880] INFO: data_preprocessing : 42] No missing values found in column 'number_of_closed_accounts'
+[2024-11-10 11:01:40,880] INFO: data_preprocessing : 42] No missing values found in column 'total_loan_months'
+[2024-11-10 11:01:40,880] INFO: data_preprocessing : 42] No missing values found in column 'delinquent_months'
+[2024-11-10 11:01:40,880] INFO: data_preprocessing : 42] No missing values found in column 'total_dpd'
+[2024-11-10 11:01:40,880] INFO: data_preprocessing : 42] No missing values found in column 'enquiry_count'
+[2024-11-10 11:01:40,885] INFO: data_preprocessing : 42] No missing values found in column 'credit_utilization_ratio'
+[2024-11-10 11:01:40,959] INFO: data_preprocessing : 51] No duplicate rows found
+[2024-11-10 11:01:40,959] INFO: data_preprocessing : 53] Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-10 11:01:41,446] INFO: common : 97] Successfully saved DataFrame to: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-10 11:01:41,449] INFO: main : 26] >>>>>>>>>>>Completed Data Pre-Processing Stage<<<<<<<<<<<<<
+[2024-11-10 11:01:41,449] INFO: main : 36] >>>>>>>>>>>Starting Data Cleaning Stage<<<<<<<<<<<<<
+[2024-11-10 11:01:41,449] INFO: common : 32] Successfully loaded yaml file: config\config.yaml
+[2024-11-10 11:01:41,449] INFO: common : 32] Successfully loaded yaml file: params.yaml
+[2024-11-10 11:01:41,458] INFO: common : 32] Successfully loaded yaml file: schema.yaml
+[2024-11-10 11:01:41,458] INFO: common : 55] Created directory: artifacts
+[2024-11-10 11:01:41,458] INFO: common : 55] Created directory: artifacts/data_cleaning
+[2024-11-10 11:01:41,710] INFO: common : 79] Successfully loaded DataFrame from: artifacts\data_preprocessing\preprocessed_data.csv
+[2024-11-10 11:01:41,710] INFO: data_cleaning : 27] Initiating train test split...
+[2024-11-10 11:01:41,725] INFO: data_cleaning : 29] Train test split completed successfully.
+[2024-11-10 11:01:41,732] INFO: data_cleaning : 51] Train_df :Index(['cust_id', 'age', 'gender', 'marital_status', 'employment_status',
+       'income', 'number_of_dependants', 'residence_type',
+       'years_at_current_address', 'city', 'state', 'zipcode', 'loan_id',
+       'loan_purpose', 'loan_type', 'sanction_amount', 'loan_amount',
+       'processing_fee', 'gst', 'net_disbursement', 'loan_tenure_months',
+       'principal_outstanding', 'bank_balance_at_application',
+       'disbursal_date', 'installment_start_dt', 'default',
+       'number_of_open_accounts', 'number_of_closed_accounts',
+       'total_loan_months', 'delinquent_months', 'total_dpd', 'enquiry_count',
+       'credit_utilization_ratio'],
+      dtype='object')
+[2024-11-10 11:01:41,749] INFO: data_cleaning : 56]  After outlier removal train_df :(40000, 33)
+[2024-11-10 11:01:41,749] INFO: data_cleaning : 57]  After outlier removal test_df :(10000, 33)
+[2024-11-10 11:01:41,754] INFO: data_cleaning : 62] Rule 1: GST should not be more than 20% :(0, 33)
+[2024-11-10 11:01:41,754] INFO: data_cleaning : 66] Rule 2: Net disbursement should not be higher than loan_amount :(0, 33)
+[2024-11-10 11:01:41,763] INFO: data_cleaning : 71] Rule 3 : Fixed loan_purpose column :loan_purpose
+Personal     14037
+Home         12006
+Auto          7950
+Education     6007
+Name: count, dtype: int64
+[2024-11-10 11:01:41,773] INFO: data_cleaning : 76] Rule 4 : Generated loan_to_income column(LTI)
+[2024-11-10 11:01:41,778] INFO: data_cleaning : 81] Generated delinquency_ratio column :count    40000.000000
+mean        10.424123
+std         17.283345
+min          0.000000
+25%          0.000000
+50%          3.800000
+75%         13.200000
+max        100.000000
+Name: delinquency_ratio, dtype: float64
+[2024-11-10 11:01:41,795] INFO: data_cleaning : 37] Removing columns...
+[2024-11-10 11:01:41,798] INFO: data_cleaning : 40] Columns removed successfully.
+[2024-11-10 11:01:41,803] INFO: data_cleaning : 37] Removing columns...
+[2024-11-10 11:01:41,804] INFO: data_cleaning : 40] Columns removed successfully.
+[2024-11-10 11:01:42,141] INFO: common : 97] Successfully saved DataFrame to: artifacts\data_cleaning\train_data.csv
+[2024-11-10 11:01:42,228] INFO: common : 97] Successfully saved DataFrame to: artifacts\data_cleaning\test_data.csv
+[2024-11-10 11:01:42,234] INFO: main : 38] >>>>>>>>>>>Completed Data Cleaning Stage<<<<<<<<<<<<<

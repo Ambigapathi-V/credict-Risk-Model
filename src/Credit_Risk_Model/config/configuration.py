@@ -1,7 +1,7 @@
 from src.Credit_Risk_Model.constants import *
 from src.Credit_Risk_Model.utils.common import read_yaml, create_directories, load_df, save_df
 from src.Credit_Risk_Model.logger import logger
-from src.Credit_Risk_Model.entity.config_entity import DataIngestionConfig, DataPreprocessingConfig
+from src.Credit_Risk_Model.entity.config_entity import DataIngestionConfig, DataPreprocessingConfig,DataCleaningConfig
 from pathlib import Path
 
 class ConfigurationManager:
@@ -51,3 +51,18 @@ class ConfigurationManager:
         )
         
         return data_preprocessing_config
+    
+    def get_data_cleaning_config(self) -> DataCleaningConfig:
+        config = self.config['data_cleaning']
+        params = self.params['data_cleaning']
+        create_directories([config.root_dir])
+        
+        data_cleaning_config = DataCleaningConfig(
+            root_dir = Path(config.root_dir),
+            input_filepath = Path(config.input_filepath),
+            test_path = Path(config.test_path),
+            train_path = Path(config.train_path),
+            columns_to_have = params.columns_to_have,
+            params = params,
+        )
+        return data_cleaning_config
