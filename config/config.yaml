@@ -15,5 +15,29 @@ data_preprocessing:
 data_cleaning:
   root_dir: artifacts/data_cleaning
   input_filepath: artifacts/data_preprocessing/preprocessed_data.csv
-  test_path: artifacts/data_cleaning/test_data.csv
-  train_path: artifacts/data_cleaning/train_data.csv
+  test_path: artifacts/data_cleaning/test_data.arr
+  train_path: artifacts/data_cleaning/train_data.arr
+  model_path : artifacts/data_cleaning/preprocessor.joblib
+  target_column: default
+
+model_training:
+  root_dir: artifacts/model_training
+  train_path: artifacts/data_cleaning/train_data.arr
+  test_path: artifacts/data_cleaning/test_data.arr
+  preprocessor: artifacts/model_training/preprocessor.joblib
+  model_path : artifacts/model_training/best_model.joblib
+
+
+
+
+
+
+
+
+
+
+
+
+classification_metric:
+  preprocessor: artifacts/model_training/preprocessor.joblib
+  model_path : artifacts/model_training/best_model.joblib

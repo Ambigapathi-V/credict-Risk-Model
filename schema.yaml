@@ -1,1 +1,24 @@
-data : hi
+data_cleaning:
+  columns:
+    - age
+    - residence_type
+    - loan_purpose
+    - loan_type
+    - loan_tenure_months
+    - number_of_open_accounts
+    - credit_utilization_ratio
+    - loan_to_income
+    - delinquency_ratio
+    - avg_dpd_per_delinquency
+  
+  columns_dtypes:
+   age: int
+   residence_type: object
+   loan_purpose: object
+   loan_type: object
+   loan_tenure_months: int
+   number_of_open_accounts: int
+   credit_utilization_ratio: int
+   loan_to_income: float
+   delinquency_ratio: float
+   avg_dpd_per_delinquency: float

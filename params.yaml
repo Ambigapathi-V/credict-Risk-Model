@@ -11,4 +11,13 @@ data_cleaning:
   - delinquency_ratio
   - avg_dpd_per_delinquency
 
+model_training:
+  models:
+  - logistic_regression
+  - decision_tree
+  - random_forest
+  - gradient_boosting
+  - support_vector_machine
+  - neural_network
+
  
