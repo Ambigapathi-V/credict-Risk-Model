@@ -1,4 +1,4 @@
-![](img\pexels-markus-winkler-1430818-19867471.jpg)
+![](https://github.com/Ambigapathi-V/credict-Risk-Model/blob/main/img/pexels-markus-winkler-1430818-19867471.jpg)
 
 
 # Credict Risk Prediction
