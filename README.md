@@ -30,12 +30,12 @@ Lauki Finance, an Indian NBFC, has partnered with AtliQ AI to develop an advance
 
 ## Demo
 
-Insert gif or link to demo
+https://ml-project-credit-risk-model.streamlit.app/
 
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](img\ml-credit-risk-model.png)
 
 # Installation and Setup
 
