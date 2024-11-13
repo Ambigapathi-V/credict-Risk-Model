@@ -1,14 +1,16 @@
-![](img\pexels-markus-winkler-1430818-19867471.jpg)
+![](https://github.com/Ambigapathi-V/credict-Risk-Model/blob/main/img/pexels-markus-winkler-1430818-19867471.jpg)
 
 
 # Credict Risk Prediction
 
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Ambigapathi-V/Mental-Health-Prediction?include_prereleases)
-![GitHub last commit](https://img.shields.io/github/last-commit/Ambigapathi-V/Credict-Risk-Prediction)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/Ambigapathi-V/Credict-Risk-Prediction)
-![GitHub](https://img.shields.io/github/license/Ambigapathi-V/Credict-Risk-Prediction)
-![contributors](https://img.shields.io/github/contributors/Ambigapathi-V/Credict-Risk-Prediction)
-![codesize](https://img.shields.io/github/languages/code-size/Ambigapathi-V/Credict-Risk-Prediction)
+![GitHub last commit](https://img.shields.io/github/last-commit/Ambigapathi-V/credict-Risk-Model)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/Ambigapathi-V/credict-Risk-Model)
+![GitHub](https://img.shields.io/github/license/Ambigapathi-V/credict-Risk-Model)
+![contributors](https://img.shields.io/github/contributors/Ambigapathi-V/credict-Risk-Model)
+![codesize](https://img.shields.io/github/languages/code-size/Ambigapathi-V/credict-Risk-Model)
+
+
 
 
 
