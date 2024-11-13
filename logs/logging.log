@@ -255,3 +255,69 @@
 [2024-11-13 10:29:27,603] INFO: app : 120] Default probability: 99.43%
 [2024-11-13 10:29:27,603] INFO: app : 121] Rating: Excellent
 [2024-11-13 10:29:27,603] INFO: app : 82] Data saved to CSV successfully.
+[2024-11-13 10:38:23,241] INFO: __init__ : 26] Credit Risk Model Building Started
+[2024-11-13 10:58:06,341] INFO: api : 102] Received prediction request: {'age': {0: 30}, 'residence_type': {0: 'Owned'}, 'loan_purpose': {0: 'Education'}, 'loan_type': {0: 'Secured'}, 'loan_tenure_months': {0: 24}, 'number_of_open_accounts': {0: 3}, 'loan_amount': {0: 10000.0}, 'income': {0: 5000.0}, 'delinquent_months': {0: 1}, 'total_dpd': {0: 15}, 'credit_utilization_ratio': {0: 10.0}}
+[2024-11-13 10:58:06,362] INFO: app : 119] Predicted credit score: 892
+[2024-11-13 10:58:06,379] INFO: app : 120] Default probability: 98.83%
+[2024-11-13 10:58:06,385] INFO: app : 121] Rating: Excellent
+[2024-11-13 10:58:06,385] INFO: app : 82] Data saved to CSV successfully.
+[2024-11-13 11:02:27,537] INFO: __init__ : 26] Credit Risk Model Building Started
+[2024-11-13 11:02:29,609] INFO: api : 30] Model and preprocessor loaded successfully.
+[2024-11-13 11:04:05,047] INFO: __init__ : 26] Credit Risk Model Building Started
+[2024-11-13 11:04:06,353] INFO: api : 30] Model and preprocessor loaded successfully.
+[2024-11-13 11:04:08,834] INFO: __init__ : 26] Credit Risk Model Building Started
+[2024-11-13 11:04:10,094] INFO: api : 30] Model and preprocessor loaded successfully.
+[2024-11-13 11:04:26,380] INFO: __init__ : 26] Credit Risk Model Building Started
+[2024-11-13 11:04:28,812] INFO: api : 102] Received prediction request: {'age': {0: 30}, 'residence_type': {0: 'Owned'}, 'loan_purpose': {0: 'Education'}, 'loan_type': {0: 'Secured'}, 'loan_tenure_months': {0: 24}, 'number_of_open_accounts': {0: 3}, 'loan_amount': {0: 10000.0}, 'income': {0: 5000.0}, 'delinquent_months': {0: 0}, 'total_dpd': {0: 15}, 'credit_utilization_ratio': {0: 10.0}}
+[2024-11-13 11:04:28,830] INFO: app : 119] Predicted credit score: 896
+[2024-11-13 11:04:28,830] INFO: app : 120] Default probability: 99.41%
+[2024-11-13 11:04:28,831] INFO: app : 121] Rating: Excellent
+[2024-11-13 11:04:28,832] INFO: app : 82] Data saved to CSV successfully.
+[2024-11-13 11:04:40,502] INFO: api : 102] Received prediction request: {'age': {0: 30}, 'residence_type': {0: 'Mortgage'}, 'loan_purpose': {0: 'Education'}, 'loan_type': {0: 'Secured'}, 'loan_tenure_months': {0: 24}, 'number_of_open_accounts': {0: 3}, 'loan_amount': {0: 10000.0}, 'income': {0: 5000.0}, 'delinquent_months': {0: 0}, 'total_dpd': {0: 15}, 'credit_utilization_ratio': {0: 10.0}}
+[2024-11-13 11:04:40,524] INFO: app : 119] Predicted credit score: 894
+[2024-11-13 11:04:40,526] INFO: app : 120] Default probability: 99.12%
+[2024-11-13 11:04:40,527] INFO: app : 121] Rating: Excellent
+[2024-11-13 11:04:40,534] INFO: app : 82] Data saved to CSV successfully.
+[2024-11-13 11:04:49,748] INFO: api : 102] Received prediction request: {'age': {0: 30}, 'residence_type': {0: 'Mortgage'}, 'loan_purpose': {0: 'Education'}, 'loan_type': {0: 'Secured'}, 'loan_tenure_months': {0: 24}, 'number_of_open_accounts': {0: 3}, 'loan_amount': {0: 10000.0}, 'income': {0: 5000.0}, 'delinquent_months': {0: 0}, 'total_dpd': {0: 15}, 'credit_utilization_ratio': {0: 10.0}}
+[2024-11-13 11:04:49,773] INFO: app : 119] Predicted credit score: 894
+[2024-11-13 11:04:49,778] INFO: app : 120] Default probability: 99.12%
+[2024-11-13 11:04:49,779] INFO: app : 121] Rating: Excellent
+[2024-11-13 11:04:49,781] INFO: app : 82] Data saved to CSV successfully.
+[2024-11-13 11:04:56,648] INFO: api : 102] Received prediction request: {'age': {0: 30}, 'residence_type': {0: 'Mortgage'}, 'loan_purpose': {0: 'Education'}, 'loan_type': {0: 'Secured'}, 'loan_tenure_months': {0: 24}, 'number_of_open_accounts': {0: 3}, 'loan_amount': {0: 10000.0}, 'income': {0: 5000.0}, 'delinquent_months': {0: 0}, 'total_dpd': {0: 300}, 'credit_utilization_ratio': {0: 10.0}}
+[2024-11-13 11:04:56,669] INFO: app : 119] Predicted credit score: 871
+[2024-11-13 11:04:56,669] INFO: app : 120] Default probability: 95.25%
+[2024-11-13 11:04:56,669] INFO: app : 121] Rating: Excellent
+[2024-11-13 11:04:56,676] INFO: app : 82] Data saved to CSV successfully.
+[2024-11-13 11:05:19,217] INFO: api : 102] Received prediction request: {'age': {0: 30}, 'residence_type': {0: 'Mortgage'}, 'loan_purpose': {0: 'Education'}, 'loan_type': {0: 'Secured'}, 'loan_tenure_months': {0: 24}, 'number_of_open_accounts': {0: 3}, 'loan_amount': {0: 10000.0}, 'income': {0: 5000.0}, 'delinquent_months': {0: 30}, 'total_dpd': {0: 300}, 'credit_utilization_ratio': {0: 10.0}}
+[2024-11-13 11:05:19,236] INFO: app : 119] Predicted credit score: 326
+[2024-11-13 11:05:19,237] INFO: app : 120] Default probability: 4.44%
+[2024-11-13 11:05:19,238] INFO: app : 121] Rating: Poor
+[2024-11-13 11:05:19,240] INFO: app : 82] Data saved to CSV successfully.
+[2024-11-13 11:05:30,401] INFO: api : 102] Received prediction request: {'age': {0: 30}, 'residence_type': {0: 'Mortgage'}, 'loan_purpose': {0: 'Education'}, 'loan_type': {0: 'Secured'}, 'loan_tenure_months': {0: 24}, 'number_of_open_accounts': {0: 3}, 'loan_amount': {0: 10000.0}, 'income': {0: 5000.0}, 'delinquent_months': {0: 2}, 'total_dpd': {0: 300}, 'credit_utilization_ratio': {0: 10.0}}
+[2024-11-13 11:05:30,413] INFO: app : 119] Predicted credit score: 841
+[2024-11-13 11:05:30,415] INFO: app : 120] Default probability: 90.18%
+[2024-11-13 11:05:30,415] INFO: app : 121] Rating: Excellent
+[2024-11-13 11:05:30,416] INFO: app : 82] Data saved to CSV successfully.
+[2024-11-13 11:05:41,811] INFO: api : 102] Received prediction request: {'age': {0: 30}, 'residence_type': {0: 'Mortgage'}, 'loan_purpose': {0: 'Education'}, 'loan_type': {0: 'Secured'}, 'loan_tenure_months': {0: 24}, 'number_of_open_accounts': {0: 3}, 'loan_amount': {0: 10000.0}, 'income': {0: 5000.0}, 'delinquent_months': {0: 10}, 'total_dpd': {0: 300}, 'credit_utilization_ratio': {0: 10.0}}
+[2024-11-13 11:05:41,823] INFO: app : 119] Predicted credit score: 691
+[2024-11-13 11:05:41,824] INFO: app : 120] Default probability: 65.21%
+[2024-11-13 11:05:41,825] INFO: app : 121] Rating: Good
+[2024-11-13 11:05:41,827] INFO: app : 82] Data saved to CSV successfully.
+[2024-11-13 11:06:01,972] INFO: __init__ : 26] Credit Risk Model Building Started
+[2024-11-13 11:06:03,664] INFO: api : 30] Model and preprocessor loaded successfully.
+[2024-11-13 11:06:06,453] INFO: __init__ : 26] Credit Risk Model Building Started
+[2024-11-13 11:06:08,067] INFO: api : 30] Model and preprocessor loaded successfully.
+[2024-11-13 11:07:55,168] INFO: __init__ : 26] Credit Risk Model Building Started
+[2024-11-13 11:07:56,754] INFO: api : 30] Model and preprocessor loaded successfully.
+[2024-11-13 11:09:11,820] INFO: __init__ : 26] Credit Risk Model Building Started
+[2024-11-13 11:09:12,714] INFO: api : 30] Model and preprocessor loaded successfully.
+[2024-11-13 11:21:17,933] INFO: api : 102] Received prediction request: {'age': {0: 30}, 'residence_type': {0: 'Mortgage'}, 'loan_purpose': {0: 'Education'}, 'loan_type': {0: 'Secured'}, 'loan_tenure_months': {0: 24}, 'number_of_open_accounts': {0: 3}, 'loan_amount': {0: 10000.0}, 'income': {0: 5000.0}, 'delinquent_months': {0: 10}, 'total_dpd': {0: 299}, 'credit_utilization_ratio': {0: 10.0}}
+[2024-11-13 11:21:17,971] INFO: app : 119] Predicted credit score: 691
+[2024-11-13 11:21:17,971] INFO: app : 120] Default probability: 65.21%
+[2024-11-13 11:21:17,971] INFO: app : 121] Rating: Good
+[2024-11-13 11:21:17,979] INFO: app : 82] Data saved to CSV successfully.
+[2024-11-13 11:21:24,531] INFO: api : 102] Received prediction request: {'age': {0: 30}, 'residence_type': {0: 'Mortgage'}, 'loan_purpose': {0: 'Education'}, 'loan_type': {0: 'Secured'}, 'loan_tenure_months': {0: 24}, 'number_of_open_accounts': {0: 3}, 'loan_amount': {0: 10000.0}, 'income': {0: 5000.0}, 'delinquent_months': {0: 10}, 'total_dpd': {0: 298}, 'credit_utilization_ratio': {0: 10.0}}
+[2024-11-13 11:21:24,555] INFO: app : 119] Predicted credit score: 691
+[2024-11-13 11:21:24,557] INFO: app : 120] Default probability: 65.21%
+[2024-11-13 11:21:24,559] INFO: app : 121] Rating: Good
+[2024-11-13 11:21:24,559] INFO: app : 82] Data saved to CSV successfully.

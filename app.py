@@ -1,11 +1,24 @@
 import streamlit as st
-import requests
-import csv
+import joblib
+import pandas as pd
+import numpy as np
 import os
+import csv
 from src.Credit_Risk_Model.logger import logger  # Ensure logger is correctly configured
 
-# URL of the FastAPI server
-API_URL = "http://127.0.0.1:8000/predict"
+# Load model and preprocessor paths
+MODEL_PATH = "artifacts/model_training/best_model.joblib"
+PREPROCESSOR_PATH = "model/preprocessor.joblib"
+
+# Load model and preprocessor
+try:
+    model = joblib.load(MODEL_PATH)
+    preprocessor = joblib.load(PREPROCESSOR_PATH)
+    logger.info("Model and preprocessor loaded successfully.")
+except Exception as e:
+    logger.error(f"Error loading model or preprocessor: {str(e)}")
+    st.error(f"Error loading model or preprocessor: {str(e)}")
+    raise RuntimeError("Model or Preprocessor loading failed")
 
 # Set the title and description of the app
 st.set_page_config(page_title="Credit Risk Prediction")
@@ -53,15 +66,55 @@ with col3:
         value=10
     )
 
+# Feature engineering function for additional columns
+def encoding_columns(df):
+    try:
+        df['loan_to_income'] = round(df['loan_amount'] / df['income'], 2)
+        if 'total_loan_months' not in df.columns:
+            df['total_loan_months'] = df['loan_tenure_months']
+        df['delinquency_ratio'] = (df['delinquent_months'] * 100 / df['total_loan_months']).round(1)
+        df['avg_dpd_per_delinquency'] = np.where(df['delinquent_months'] != 0, 
+                                                  (df['total_dpd'] / df['delinquent_months']).round(1), 0)
+        return df
+    except Exception as e:
+        logger.error(f"Error in feature engineering: {str(e)}")
+        st.error("Error in feature engineering")
+        raise RuntimeError("Error in feature engineering")
+
+# Credit score calculation function
+def calculate_credit_score(input_array, base_score=300, scale_length=600):
+    try:
+        # Obtain the probability of the person being a non-default (repayment probability)
+        repayment_probability = model.predict_proba(input_array)[:, 0]  # Probability of the positive class (repayment)
+        credit_score = base_score + repayment_probability * scale_length
+
+        # Determine rating based on credit score
+        def get_rating(score):
+            if 300 <= score < 500:
+                return 'Poor'
+            elif 500 <= score < 650:
+                return 'Average'
+            elif 650 <= score < 750:
+                return 'Good'
+            elif 750 <= score <= 900:
+                return 'Excellent'
+            else:
+                return 'Undefined'
+
+        rating = get_rating(credit_score[0])
+        return repayment_probability[0], int(credit_score[0]), rating
+    except Exception as e:
+        logger.error(f"Error in credit score calculation: {str(e)}")
+        st.error("Error in credit score calculation")
+        raise RuntimeError("Error in credit score calculation")
+
 # Function to save input and prediction results to CSV
 def save_to_csv(input_data, result, filename='input_data.csv'):
-    # Combine input and result data into a single dictionary
     output_data = {**input_data,
                    'credit_score': result.get('credit_score'),
                    'repayment_probability': result.get('repayment_probability'),
                    'rating': result.get('rating')}
     
-    # Check if the file exists and write the header if the file is new
     file_exists = os.path.exists(filename)
     
     try:
@@ -72,11 +125,9 @@ def save_to_csv(input_data, result, filename='input_data.csv'):
                           'repayment_probability', 'rating']
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             
-            # Write header only if the file doesn't exist or is empty
             if not file_exists:
                 writer.writeheader()
             
-            # Write the data row
             writer.writerow(output_data)
         
         logger.info("Data saved to CSV successfully.")
@@ -86,7 +137,7 @@ def save_to_csv(input_data, result, filename='input_data.csv'):
 
 # Prediction Button
 if st.button("Predict Credit Risk"):
-    # Prepare input data to send to FastAPI in a flat dictionary format
+    # Prepare input data to send for prediction
     input_data = {
         "age": age,
         "residence_type": residence_type,
@@ -103,30 +154,35 @@ if st.button("Predict Credit Risk"):
     }
 
     try:
-        # Send a POST request to FastAPI to get the prediction
-        response = requests.post(API_URL, json=input_data)
-        response.raise_for_status()
+        # Prepare data for prediction
+        data = pd.DataFrame([input_data])
+        logger.info(f"Received prediction request: {data.to_dict()}")
 
-        # Display the results from the FastAPI response
-        result = response.json()
+        # Feature engineering
+        data = encoding_columns(data)
 
+        # Ensure data is in the format expected by the preprocessor
+        data = pd.DataFrame(data, columns=preprocessor.feature_names_in_)
+
+        # Apply preprocessor and get a NumPy array
+        transformed_data = preprocessor.transform(data)
+
+        # Calculate credit score and ratings
+        repayment_prob, credit_score, rating = calculate_credit_score(transformed_data)
+        
         # Display the results
-        st.success(f"Credit Score: {result.get('credit_score')}")
-        st.write(f"Default Probability: {result.get('repayment_probability'):.2%}")
-        st.write(f"Rating: {result.get('rating')}")
+        st.success(f"Credit Score: {credit_score}")
+        st.write(f"Default Probability: {repayment_prob:.2%}")
+        st.write(f"Rating: {rating}")
 
         # Log the prediction details
-        logger.info(f"Predicted credit score: {result.get('credit_score')}")
-        logger.info(f"Default probability: {result.get('repayment_probability'):.2%}")
-        logger.info(f"Rating: {result.get('rating')}")
-        #logger.info("Prediction request completed successfully.")
+        logger.info(f"Predicted credit score: {credit_score}")
+        logger.info(f"Default probability: {repayment_prob:.2%}")
+        logger.info(f"Rating: {rating}")
 
         # Save the input and prediction details to CSV
-        save_to_csv(input_data, result)
+        save_to_csv(input_data, {'credit_score': credit_score, 'repayment_probability': repayment_prob, 'rating': rating})
 
-    except requests.exceptions.RequestException as e:
-        logger.error(f"Error fetching prediction: {e}")
-        st.error(f"Error fetching prediction: {e}")
-    except ValueError:
-        logger.error("Unexpected response format received from API.")
-        st.error("Unexpected response format received from API.")
+    except Exception as e:
+        logger.error(f"Error during prediction: {str(e)}")
+        st.error(f"Error during prediction: {str(e)}")
