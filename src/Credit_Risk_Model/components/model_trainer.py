@@ -93,6 +93,8 @@ class ModelTrainer:
                 confusion_matrix_path = 'artifacts/confusion_matrix.png'
                 plt.savefig(confusion_matrix_path)
                 plt.close()
+                
+                
 
                 # Log the confusion matrix plot as an artifact
                 mlflow.log_artifact(confusion_matrix_path)
@@ -160,6 +162,7 @@ class ModelTrainer:
         # Save the trained model
         os.makedirs(os.path.dirname(self.model_path), exist_ok=True)
         save_object(self.model_path, best_model)
+        save_object("model/best_model.joblib", best_model)
 
     def initiate_model_trainer(self):
         """

@@ -10,7 +10,12 @@ data_cleaning:
     - loan_to_income
     - delinquency_ratio
     - avg_dpd_per_delinquency
-  
+    - loan_amount
+    - income
+    - delinquent_months
+    - total_dpd
+    - total_loan_months
+
   columns_dtypes:
    age: int
    residence_type: object
@@ -22,3 +27,15 @@ data_cleaning:
    loan_to_income: float
    delinquency_ratio: float
    avg_dpd_per_delinquency: float
+   loan_amount : int
+   income : int
+   delinquent_months: int
+   total_dpd : int
+   credit_utilization_ratio : int
+   loan_to_income : int
+   delinquency_ratio : int
+   avg_dpd_per_delinquency : int
+   loan_amount : int
+   income : int
+   delinquent_months : int
+   total_dpd : int

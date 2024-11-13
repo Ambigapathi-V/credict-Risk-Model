@@ -1,23 +1,113 @@
+version: 1.0
+
+# Data Cleaning Configuration
 data_cleaning:
   columns_to_have:
-  - age
-  - residence_type
-  - loan_purpose
-  - loan_type
-  - loan_tenure_months
-  - number_of_open_accounts
-  - credit_utilization_ratio
-  - loan_to_income
-  - delinquency_ratio
-  - avg_dpd_per_delinquency
+    - age
+    - residence_type
+    - loan_purpose
+    - loan_type
+    - loan_tenure_months
+    - number_of_open_accounts
+    - credit_utilization_ratio
+    - loan_to_income
+    - delinquency_ratio
+    - avg_dpd_per_delinquency
+    - loan_amount
+    - income
+    - delinquent_months
+    - total_dpd
+    - total_loan_months
 
-model_training:
-  models:
-  - logistic_regression
-  - decision_tree
-  - random_forest
-  - gradient_boosting
-  - support_vector_machine
-  - neural_network
+# Input Schema
+input_schema:
+  description: "Schema for the input data required for the credit risk prediction model"
+  features:
+    age:
+      type: float
+      description: "Age of the applicant"
+      min_value: 18
+      max_value: 100
+    residence_type:
+      type: string
+      description: "Type of residence of the applicant (Urban/Rural)"
+      allowed_values:
+        - "Urban"
+        - "Rural"
+    loan_purpose:
+      type: string
+      description: "Purpose of the loan"
+      allowed_values:
+        - "Home"
+        - "Personal"
+        - "Car"
+        - "Other"
+    loan_type:
+      type: string
+      description: "Type of loan"
+      allowed_values:
+        - "Secured"
+        - "Unsecured"
+    loan_tenure_months:
+      type: float
+      description: "Tenure of the loan in months"
+      min_value: 1
+      max_value: 360
+    number_of_open_accounts:
+      type: int
+      description: "Number of open credit accounts"
+      min_value: 1
+      max_value: 50
+    credit_utilization_ratio:
+      type: float
+      description: "Credit utilization ratio"
+      min_value: 0.0
+      max_value: 1.0
+    loan_to_income:
+      type: float
+      description: "Loan to income ratio"
+      min_value: 0.0
+      max_value: 1.0
+    delinquency_ratio:
+      type: float
+      description: "Ratio of delinquent loans"
+      min_value: 0.0
+      max_value: 1.0
+    avg_dpd_per_delinquency:
+      type: float
+      description: "Average days past due per delinquent loan"
+      min_value: 0.0
+    loan_amount:
+      type: float
+      description: "Amount of the loan"
+      min_value: 0.0
+    income:
+      type: float
+      description: "Income of the applicant"
+      min_value: 0.0
+    delinquent_months:
+      type: int
+      description: "Number of months the applicant was delinquent"
+      min_value: 0
+      max_value: 12
+    total_dpd:
+      type: int
+      description: "Total days past due"
+      min_value: 0
 
- 
+# Output Schema
+output_schema:
+  description: "Schema for the output prediction from the credit risk model"
+  prediction:
+    type: int
+    description: "Predicted credit risk classification"
+    allowed_values:
+      - 0  # No risk
+      - 1  # High risk
+  explanation:
+    type: string
+    description: "Explanation of the model's prediction"
+    allowed_values:
+      - "Low Risk"
+      - "Medium Risk"
+      - "High Risk"

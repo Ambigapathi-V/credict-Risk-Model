@@ -61,23 +61,7 @@ class DataCleaning:
             if missing_columns or extra_columns:
                 return False
 
-            # Validate data types
-            mismatched_dtypes = {col: (df[col].dtype, dtype)
-                                 for col, dtype in self.columns_dtypes.items()
-                                 if col in df.columns and df[col].dtype != dtype}
-
-            if mismatched_dtypes:
-                for col, (actual, expected) in mismatched_dtypes.items():
-                    logger.error(f"Dtype mismatch in '{col}': Expected {expected}, got {actual}")
-                    try:
-                        # Attempt to convert to the expected dtype
-                        df[col] = df[col].astype(expected)
-                        logger.info(f"Converted column '{col}' to {expected}.")
-                    except Exception as e:
-                        logger.error(f"Failed to convert column '{col}' to {expected}: {str(e)}")
-                        return False
-
-            logger.info("Schema validation successful: Columns and dtypes match.")
+            logger.info("Schema validation successful")
             return True
         except Exception as e:
             logger.error(f"Error occurred while checking schema: {str(e)}")
@@ -156,13 +140,14 @@ class DataCleaning:
 
 
             # Prepare preprocessor pipeline for numerical and categorical features
+            logger.info(f"{train_df.columns}")
             categorical_columns = train_df.select_dtypes(include=['object']).columns
+            logger.info(f"Categorical columns: {categorical_columns}")
             numerical_columns = train_df.select_dtypes(exclude=['object']).columns
-
+            logger.info(f"Numerical columns: {numerical_columns}")
             numerical_transformer = Pipeline(steps=[('scaler', StandardScaler(with_mean=False))])
             categorical_transformer = Pipeline(steps=[
                 ('onehot', OneHotEncoder()),
-                ('scaler', StandardScaler(with_mean=False))
             ])
 
             preprocessor = ColumnTransformer(
